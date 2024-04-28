@@ -2390,9 +2390,9 @@
     <bcf:citekey order="27" intorder="1">elhadj_models_2011</bcf:citekey>
     <bcf:citekey order="28" intorder="1">orue_lorenz_2006</bcf:citekey>
     <bcf:citekey order="29" intorder="1">qi_energy_2017</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">bose_numerical_2019</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">carter_music_2016</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">hinson_12_1987</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">carter_music_2016</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">hinson_12_1987</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">bose_numerical_2019</bcf:citekey>
     <bcf:citekey order="33" intorder="1">pachelbel_canon_2005</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->

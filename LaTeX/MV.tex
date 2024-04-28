@@ -54,13 +54,14 @@ In this work, We explore the theory behind chaotic system equations and the basi
 This literature review explores the intersection of chaotic systems, known for their unpredictable behavior, with music composition. We will examine the core principles of chaotic systems, including the "Butterfly Effect," and delve into specific examples like the Lorenz equations.  The Runge-Kutta method, crucial for analyzing these systems, will also be introduced.  Shifting focus to music, we will explore melodic variation and its role in creating engaging melodies.  Finally, with a foundation in musical notes and durations, we will investigate how chaotic systems can be mapped to musical elements, potentially leading to the generation of novel and intriguing compositions.
 
 \subsection{Chaotic System}
-A chaotic system is a complex system that exhibits unpredictable behavior over the long term, with sensitivity to tiny changes in initial conditions and non-linear changes over time.
+**A chaotic system is a complex system that exhibits unpredictable behavior over the long term, with sensitivity to tiny changes in initial conditions and non-linear changes over time.
 
 
-A chaotic system is one that exhibits high sensitivity to initial conditions. In other words, minute variations in the starting state of the system can lead to drastically different outcomes. This paper leverages this property to generate musical patterns by establishing a correspondence between chaotic trajectories and the pitch sequence of a musical piece. While chaotic trajectories diverge over time, the mapping employed guarantees that the resulting variations retain a connection to the original composition.
+***A chaotic system is one that exhibits high sensitivity to initial conditions. In other words, minute variations in the starting state of the system can lead to drastically different outcomes. This paper leverages this property to generate musical patterns by establishing a correspondence between chaotic trajectories and the pitch sequence of a musical piece. While chaotic trajectories diverge over time, the mapping employed guarantees that the resulting variations retain a connection to the original composition.
 
-A chaotic system consists of numerous interconnected subsystems, forming a highly complex network. Even small changes in the initial state of the system can lead to vastly different outcomes over time, making long-term predictions highly uncertain. This phenomenon is known as the "Butterfly Effect," where small changes in initial conditions lead to nonlinear changes in behavior over time. Graphs depicting the relationships between variables in chaotic systems often exhibit patterns resembling a spiral or randomness.
-% เเก้ใหม่อ้างอิงจาก dabby 
+
+****A chaotic system consists of numerous interconnected subsystems, forming a highly complex network. Even small changes in the initial state of the system can lead to vastly different outcomes over time, making long-term predictions highly uncertain. This phenomenon is known as the "Butterfly Effect," where small changes in initial conditions lead to nonlinear changes in behavior over time. Graphs depicting the relationships between variables in chaotic systems often exhibit patterns resembling a spiral or randomness.
+% เเก้ใหม่อ้างอิงจาก dabby
 
 Instances of chaotic systems, such as those employed in modeling natural phenomena \cite{sanabria_modelling_2020}, are exemplified by their capacity to elucidate various natural phenomena, including weather patterns \cite{noauthor_weather_nodate}, turbulent fluid flows \cite{noauthor_turbulent_nodate}, ecological systems \cite{crawford_ecological_2020}, and population dynamics \cite{noauthor_population_nodate}******. In the domain of finance and economics \cite{liao_study_2020}, scholars investigate chaotic dynamics to model stock market fluctuations \cite{vogl_chaos_2024}, economic cycles \cite{tusset_dynamic_2023}, and price dynamics \cite{ait_omar_chaotic_2022}, thereby providing insights into the intrinsic unpredictability and nonlinear behavior inherent in financial systems. Likewise, within biomedical systems \cite{grigorenko_study_2022}, chaotic systems assume a pivotal role in the modeling and comprehension of intricate biological systems \cite{li_incorporating_2023}, encompassing neural networks \cite{lin_chaotic_2020}, cardiac rhythms \cite{cheffer_biochaos_2022}, and gene regulatory networks \cite{uthamacumaran_review_2021}. This facilitates advancements in diagnosis, treatment, and understanding of diseases.The Belousov-Zhabotinsky Reaction (BZ Reaction) \cite{karimov_empirically_2023}, The BZ reaction is a complex system that can be chaotic depending on the initial concentrations of the reactants and the temperature such as Spiral waves in the Belousov-Zhabotinsky reaction \cite{luengviriya_meandering_2013}, The reaction can exhibit beautiful spiral wave patterns that emerge due to its chaotic nature, Cellular automata \cite{chopard_cellular_2022},The BZ reaction can be used to create cellular automata, which are simple computational models that can exhibit complex behavior.
 %อยากได้ไม่เกิน5ปี
@@ -83,25 +84,6 @@ Engineering Applications, The Lorenz equations can be used to model certain elec
 \caption{Chaotic behavior of the lorenz equation.}
 \label{fig:LE}
 \end{figure}
-
-\subsection{Fourth-Order Runge–Kutta Method}
-While analytical solutions exist for some differential equations, many require numerical approaches to approximate their behavior. The field of mathematics offers a numerical methods for solving both single and systems of linear and nonlinear differential equations. Popular examples include the Euler method and Taylor series methods. However, when it comes to achieving a balance between accuracy and efficiency, the Runge-Kutta method reigns supreme for approximating solutions.
-
-The Runge-Kutta method \cite{bose_numerical_2019} is a numerical methods for approximating solutions to ordinary differential equations. These equations describe how a quantity changes with respect to another variable, but often cannot be solved exactly. The Runge-Kutta method tackles these problems by breaking down the interval of interest into smaller subintervals and iteratively calculating the solution at each subinterval. 
-
-Let $\dot{y} = f(t,y)$. The approximation of $y_{i+1}$ by fourth-order Runge–Kutta method is given by:
-\begin{align*}
-y_{i+1} &= y_i + \dfrac{h}{6}(k_1 + 2k_2 + 2k_3 + k_4), \\
-k_1 &= f(t_i, y_i), \\
-k_2 &= f\left( t_i + \dfrac{h}{2}, y_i + \dfrac{h}{2}k_1 \right), \\
-k_3 &= f\left( t_i + \dfrac{h}{2}, y_i + \dfrac{h}{2}k_2 \right), \\
-k_4 &= f(t_i + h, y_i + hk_3),
-\end{align*}
-\label{fig:RK4}
-where $i = 0,1,2,...$ and $h$ is the step size, $y$ is the variable and $t$ is time.
-
-\subsection{Melodic Variation}
-Melodic variation is essential in songwriting, adding depth and diversity to compositions. This article emphasizes its role in enhancing musicality and emotional depth. It cautions against monotony in melodies, stressing the importance of dynamic variation to engage listeners. Additionally, melodic variation contributes to a song's structure by creating contrast between sections. Two main methods are discussed: variations on a theme and countermelodies. Lastly, the article highlights the emotional impact of melodic variation and its ability to evoke a range of feelings in listeners. In conclusion, skillful use of melodic variation enables songwriters to craft compelling compositions that resonate deeply with audiences.
 
 \subsection{Musical notes}
 In music theory \cite{carter_music_2016}, a musical note is a symbol on sheet music that represents pitch, which refers to the highness or lowness of a sound.  Notes are typically designated by the letters A through G, corresponding to the solfege syllables (Do, Re, Mi, Fa, Sol, La, Ti).  Musical notation also incorporates numbers to specify the octave of a pitch. For instance, C4 represents middle C, while C3 is an octave lower and C5 is an octave higher. A deeper understanding of musical notation systems can be found in resources on music theory
@@ -144,7 +126,7 @@ when $\tilde{x}(0)$ start not far from $x(0)$, i.e., $ \left\lVert x(0) - \tilde
 This procedure yields, a new sequence of music pitches $\widetilde{P} =\{ \tilde{p}_1, \tilde{p}_2, \dots, \tilde{p}_n \}$.
 
 \begin{example}
-Let a sequence of pitches of 12 variations on Ah vous dirai-je Maman \cite{hinson_12_1987} in the first 3 bars in Figure \ref{fig:Dabby1} denoted by $P = \{C4, C4, G4, G4, A4, A4, G4, F4, F4, E4, E4 \}$ in Figure \ref{subfig:mp} and Lorenz system be a dynamical system with chaotic behavior by giving Lorenz parameters $r = 28, \sigma=10$ and $b = 2.6667 $. Then the numerical solution of Lorenz system using fourth-order Runge–Kutta method with initial condition of $(1,1,1)$ is denoted by $X = \{1.00, 1.29, 2.13, 3.74, 6.54, 11.04, 16.69, 19.56, 15.37, 7.55, 1.20\}$ in Figure \ref{subfig:traj1}, when $X$ is a sequence of x-value from numerical solution of Lorenz system. Then, a mapping from music pitch to real value denoted by $f$ result in Figure \ref{subfig:traj1mp} as follows:
+Let a sequence of pitches of 12 variations on Ah vous dirai-je Maman \cite{hinson_12_1987} in the first 3 bars in Figure \ref{fig:Dabby1} denoted by $P = \{C4, C4, G4, G4, A4, A4, G4, F4, F4, E4, E4 \}$ in Figure \ref{subfig:mp} and Lorenz system be a dynamical system with chaotic behavior by giving Lorenz parameters $r = 28, \sigma=10$ and $b = 2.6667 $. Then the numerical solution of Lorenz system using fourth-order Runge–Kutta method \cite{bose_numerical_2019} with initial condition of $(1,1,1)$ is denoted by $X = \{1.00, 1.29, 2.13, 3.74, 6.54, 11.04, 16.69, 19.56, 15.37, 7.55, 1.20\}$ in Figure \ref{subfig:traj1}, when $X$ is a sequence of x-value from numerical solution of Lorenz system. Then, a mapping from music pitch to real value denoted by $f$ result in Figure \ref{subfig:traj1mp} as follows:
 
 \begin{center}
 \begin{tabular}{|c||c|c|c|c|c|c|}
