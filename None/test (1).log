@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  24 APR 2024 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  29 APR 2024 00:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**C:/Users/helpdesk/Desktop/UniverFile/Reupload_Final_project/LaTeX/test.tex
-(C:/Users/helpdesk/Desktop/UniverFile/Reupload_Final_project/LaTeX/test.tex
+**"./test (1).tex"
+(test (1).tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -555,6 +555,33 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \Gin@req@height=\dimen177
 \Gin@req@width=\dimen178
 )
+(C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.s
+ty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen179
+\captionmargin=\dimen180
+\caption@leftmargin=\dimen181
+\caption@rightmargin=\dimen182
+\caption@width=\dimen183
+\caption@indent=\dimen184
+\caption@parindent=\dimen185
+\caption@hangindent=\dimen186
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count418
+\c@continuedfloat=\count419
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count420
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count421
+)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\ti
 kz.sty
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.s
@@ -564,8 +591,8 @@ ty
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
 til-common.tex
 \pgfutil@everybye=\toks30
-\pgfutil@tempdima=\dimen179
-\pgfutil@tempdimb=\dimen180
+\pgfutil@tempdima=\dimen187
+\pgfutil@tempdimb=\dimen188
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfu
 til-latex.def
@@ -596,26 +623,26 @@ eys.code.tex
 eyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks33
 ))
-\pgf@x=\dimen181
-\pgf@y=\dimen182
-\pgf@xa=\dimen183
-\pgf@ya=\dimen184
-\pgf@xb=\dimen185
-\pgf@yb=\dimen186
-\pgf@xc=\dimen187
-\pgf@yc=\dimen188
-\pgf@xd=\dimen189
-\pgf@yd=\dimen190
+\pgf@x=\dimen189
+\pgf@y=\dimen190
+\pgf@xa=\dimen191
+\pgf@ya=\dimen192
+\pgf@xb=\dimen193
+\pgf@yb=\dimen194
+\pgf@xc=\dimen195
+\pgf@yc=\dimen196
+\pgf@xd=\dimen197
+\pgf@yd=\dimen198
 \w@pgf@writea=\write4
 \r@pgf@reada=\read3
-\c@pgf@counta=\count418
-\c@pgf@countb=\count419
-\c@pgf@countc=\count420
-\c@pgf@countd=\count421
+\c@pgf@counta=\count422
+\c@pgf@countb=\count423
+\c@pgf@countc=\count424
+\c@pgf@countd=\count425
 \t@pgf@toka=\toks34
 \t@pgf@tokb=\toks35
 \t@pgf@tokc=\toks36
-\pgf@sys@id@count=\count422
+\pgf@sys@id@count=\count426
 
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
 f.cfg
@@ -634,8 +661,8 @@ File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
 fsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfsyssoftpath@smallbuffer@items=\count423
-\pgfsyssoftpath@bigbuffer@items=\count424
+\pgfsyssoftpath@smallbuffer@items=\count427
+\pgfsyssoftpath@bigbuffer@items=\count428
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pg
 fsysprotocol.code.tex
@@ -672,8 +699,8 @@ ode.tex
 il.code.tex)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathpa
 rser.code.tex
-\pgfmath@dimen=\dimen191
-\pgfmath@count=\count425
+\pgfmath@dimen=\dimen199
+\pgfmath@count=\count429
 \pgfmath@box=\box102
 \pgfmath@toks=\toks37
 \pgfmath@stack@operand=\toks38
@@ -701,39 +728,39 @@ nctions.integerarithmetics.code.tex)
 lc.code.tex)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfl
 oat.code.tex
-\c@pgfmathroundto@lastzeros=\count426
+\c@pgfmathroundto@lastzeros=\count430
 ))
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.co
 de.tex)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 corepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@picminx=\dimen192
-\pgf@picmaxx=\dimen193
-\pgf@picminy=\dimen194
-\pgf@picmaxy=\dimen195
-\pgf@pathminx=\dimen196
-\pgf@pathmaxx=\dimen197
-\pgf@pathminy=\dimen198
-\pgf@pathmaxy=\dimen199
-\pgf@xx=\dimen256
-\pgf@xy=\dimen257
-\pgf@yx=\dimen258
-\pgf@yy=\dimen259
-\pgf@zx=\dimen260
-\pgf@zy=\dimen261
+\pgf@picminx=\dimen256
+\pgf@picmaxx=\dimen257
+\pgf@picminy=\dimen258
+\pgf@picmaxy=\dimen259
+\pgf@pathminx=\dimen260
+\pgf@pathmaxx=\dimen261
+\pgf@pathminy=\dimen262
+\pgf@pathmaxy=\dimen263
+\pgf@xx=\dimen264
+\pgf@xy=\dimen265
+\pgf@yx=\dimen266
+\pgf@yy=\dimen267
+\pgf@zx=\dimen268
+\pgf@zy=\dimen269
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 corepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@path@lastx=\dimen262
-\pgf@path@lasty=\dimen263
+\pgf@path@lastx=\dimen270
+\pgf@path@lasty=\dimen271
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 corepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@shorten@end@additional=\dimen264
-\pgf@shorten@start@additional=\dimen265
+\pgf@shorten@end@additional=\dimen272
+\pgf@shorten@start@additional=\dimen273
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 corescopes.code.tex
@@ -741,19 +768,19 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box103
 \pgf@hbox=\box104
 \pgf@layerbox@main=\box105
-\pgf@picture@serial@count=\count427
+\pgf@picture@serial@count=\count431
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 coregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgflinewidth=\dimen266
+\pgflinewidth=\dimen274
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 coretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@pt@x=\dimen267
-\pgf@pt@y=\dimen268
-\pgf@pt@temp=\dimen269
+\pgf@pt@x=\dimen275
+\pgf@pt@y=\dimen276
+\pgf@pt@temp=\dimen277
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 corequick.code.tex
@@ -770,14 +797,14 @@ File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 corearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfarrowsep=\dimen270
+\pgfarrowsep=\dimen278
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 coreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@max=\dimen271
-\pgf@sys@shading@range@num=\count428
-\pgf@shadingcount=\count429
+\pgf@max=\dimen279
+\pgf@sys@shading@range@num=\count432
+\pgf@shadingcount=\count433
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgf
 coreimage.code.tex
@@ -816,8 +843,8 @@ File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
 fcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
-\pgf@nodesepstart=\dimen272
-\pgf@nodesepend=\dimen273
+\pgf@nodesepstart=\dimen280
+\pgf@nodesepend=\dimen281
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pg
 fcomp-version-1-18.sty
@@ -836,8 +863,8 @@ ode.tex))
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgff
 or.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen274
-\pgffor@skip=\dimen275
+\pgffor@iter=\dimen282
+\pgffor@skip=\dimen283
 \pgffor@stack=\toks40
 \pgffor@toks=\toks41
 ))
@@ -848,34 +875,34 @@ Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgfl
 ibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgf@plot@mark@count=\count430
-\pgfplotmarksize=\dimen276
+\pgf@plot@mark@count=\count434
+\pgfplotmarksize=\dimen284
 )
-\tikz@lastx=\dimen277
-\tikz@lasty=\dimen278
-\tikz@lastxsaved=\dimen279
-\tikz@lastysaved=\dimen280
-\tikz@lastmovetox=\dimen281
-\tikz@lastmovetoy=\dimen282
-\tikzleveldistance=\dimen283
-\tikzsiblingdistance=\dimen284
+\tikz@lastx=\dimen285
+\tikz@lasty=\dimen286
+\tikz@lastxsaved=\dimen287
+\tikz@lastysaved=\dimen288
+\tikz@lastmovetox=\dimen289
+\tikz@lastmovetoy=\dimen290
+\tikzleveldistance=\dimen291
+\tikzsiblingdistance=\dimen292
 \tikz@figbox=\box108
 \tikz@figbox@bg=\box109
 \tikz@tempbox=\box110
 \tikz@tempbox@bg=\box111
-\tikztreelevel=\count431
-\tikznumberofchildren=\count432
-\tikznumberofcurrentchild=\count433
-\tikz@fig@count=\count434
+\tikztreelevel=\count435
+\tikznumberofchildren=\count436
+\tikznumberofcurrentchild=\count437
+\tikz@fig@count=\count438
 
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmod
 ulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
-\pgfmatrixcurrentrow=\count435
-\pgfmatrixcurrentcolumn=\count436
-\pgf@matrix@numberofcolumns=\count437
+\pgfmatrixcurrentrow=\count439
+\pgfmatrixcurrentcolumn=\count440
+\pgf@matrix@numberofcolumns=\count441
 )
-\tikz@expandcount=\count438
+\tikz@expandcount=\count442
 
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/
 tikz/libraries\tikzlibrarytopaths.code.tex
@@ -888,33 +915,33 @@ File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.st
 y
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count439
+\c@r@tfl@t=\count443
 \rotFPtop=\skip84
 \rotFPbot=\skip85
 \rot@float@box=\box112
 \rot@mess@toks=\toks42
 )
-\c@definition=\count440
-\c@example=\count441
-\@quotelevel=\count442
-\@quotereset=\count443
- (test.aux)
-\openout1 = `test.aux'.
+\c@definition=\count444
+\c@example=\count445
+\@quotelevel=\count446
+\@quotereset=\count447
+ (test (1).aux)
+\openout1 = `"test (1).aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -960,28 +987,27 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `test.bcf'.
+\openout3 = `"test (1).bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'test.bbl' not found.
-
-No file test.bbl.
-Package biblatex Info: Reference section=0 on input line 23.
-Package biblatex Info: Reference segment=0 on input line 23.
+Package biblatex Info: ... file '"test (1)".bbl' found.
+ (test (1).bbl)
+Package biblatex Info: Reference section=0 on input line 24.
+Package biblatex Info: Reference segment=0 on input line 24.
 
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count444
-\scratchdimen=\dimen285
+\scratchcounter=\count448
+\scratchdimen=\dimen293
 \scratchbox=\box113
-\nofMPsegments=\count445
-\nofMParguments=\count446
+\nofMPsegments=\count449
+\nofMParguments=\count450
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count447
-\MPscratchDim=\dimen286
-\MPnumerator=\count448
-\makeMPintoPDFobject=\count449
+\MPscratchCnt=\count451
+\MPscratchDim=\dimen294
+\MPnumerator=\count452
+\makeMPintoPDFobject=\count453
 \everyMPtoPDFconversion=\toks44
 )
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
@@ -994,58 +1020,137 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 s.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
 
-LaTeX Warning: Citation 'bose_numerical_2019' on page 1 undefined on input line
- 30.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
 
 
 (C:\Users\helpdesk\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 41--44
 
+LaTeX Warning: Citation 'noauthor_lorenz_nodate' on page 1 undefined on input l
+ine 27.
+
+
+LaTeX Warning: Citation 'sanabria_modelling_2020' on page 1 undefined on input 
+line 39.
+
+
+LaTeX Warning: Citation 'noauthor_weather_nodate' on page 1 undefined on input 
+line 39.
+
+
+LaTeX Warning: Citation 'noauthor_turbulent_nodate' on page 1 undefined on inpu
+t line 39.
+
+
+LaTeX Warning: Citation 'crawford_ecological_2020' on page 1 undefined on input
+ line 39.
+
+
+LaTeX Warning: Citation 'noauthor_population_nodate' on page 1 undefined on inp
+ut line 39.
+
+
+LaTeX Warning: Citation 'liao_study_2020' on page 1 undefined on input line 39.
+
+
+
+LaTeX Warning: Citation 'vogl_chaos_2024' on page 1 undefined on input line 39.
+
+
+
+LaTeX Warning: Citation 'tusset_dynamic_2023' on page 1 undefined on input line
+ 39.
+
+
+LaTeX Warning: Citation 'ait_omar_chaotic_2022' on page 1 undefined on input li
+ne 39.
+
+
+LaTeX Warning: Citation 'grigorenko_study_2022' on page 1 undefined on input li
+ne 39.
+
+
+LaTeX Warning: Citation 'li_incorporating_2023' on page 1 undefined on input li
+ne 39.
+
+
+LaTeX Warning: Citation 'lin_chaotic_2020' on page 1 undefined on input line 39
+.
+
+
+LaTeX Warning: Citation 'cheffer_biochaos_2022' on page 1 undefined on input li
+ne 39.
+
+
+LaTeX Warning: Citation 'uthamacumaran_review_2021' on page 1 undefined on inpu
+t line 39.
+
+
+LaTeX Warning: Citation 'karimov_empirically_2023' on page 1 undefined on input
+ line 39.
+
+
+LaTeX Warning: Citation 'luengviriya_meandering_2013' on page 1 undefined on in
+put line 39.
+
+
+LaTeX Warning: Citation 'chopard_cellular_2022' on page 1 undefined on input li
+ne 39.
+
+
+Overfull \hbox (103.3435pt too wide) in paragraph at lines 39--41
+[]\OT1/cmr/m/n/10.95 Instances of chaotic sys-tems, such as those em-ployed in 
+mod-el-ing nat-u-ral phe-nom-ena [[]],
+ []
+
+
+Overfull \hbox (79.96855pt too wide) in paragraph at lines 39--41
+\OT1/cmr/m/n/10.95 log-i-cal sys-tems [[]], and pop-u-la-tion dy-nam-ics [[]]**
+****.
+ []
+
+
+Overfull \hbox (19.25444pt too wide) in paragraph at lines 39--41
+\OT1/cmr/m/n/10.95 ics to model stock mar-ket fluc-tu-a-tions [[]], eco-nomic c
+y-cles [[]],
  []
 
 [1
 
 {C:/Users/helpdesk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2]
-<./picture/dabby_1.pdf, id=23, 597.51233pt x 845.0471pt>
-File: ./picture/dabby_1.pdf Graphic file (type pdf)
-<use ./picture/dabby_1.pdf>
-Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 102.
-(pdftex.def)             Requested size: 282.96666pt x 90.47972pt.
-<./picture/dabby_2.pdf, id=25, 597.51233pt x 845.0471pt>
-File: ./picture/dabby_2.pdf Graphic file (type pdf)
-<use ./picture/dabby_2.pdf>
-Package pdftex.def Info: ./picture/dabby_2.pdf  used on input line 109.
-(pdftex.def)             Requested size: 281.6859pt x 90.47972pt.
-File: ./picture/dabby_1.pdf Graphic file (type pdf)
-<use ./picture/dabby_1.pdf>
-Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 133.
-(pdftex.def)             Requested size: 217.66734pt x 90.47972pt.
-<./picture/melody_variation.pdf, id=28, 597.51233pt x 845.0471pt>
-File: ./picture/melody_variation.pdf Graphic file (type pdf)
-<use ./picture/melody_variation.pdf>
-Package pdftex.def Info: ./picture/melody_variation.pdf  used on input line 140
+
+LaTeX Warning: Reference `fig:LE' on page 2 undefined on input line 50.
+
+
+LaTeX Warning: Citation 'noauthor_lorenz_nodate' on page 2 undefined on input l
+ine 50.
+
+
+LaTeX Warning: Citation 'bond_compact_2010' on page 2 undefined on input line 5
+0.
+
+
+LaTeX Warning: Citation 'elhadj_models_2011' on page 2 undefined on input line 
+50.
+
+
+LaTeX Warning: Citation 'orue_lorenz_2006' on page 2 undefined on input line 51
 .
-(pdftex.def)             Requested size: 324.36661pt x 46.094pt.
- [3 <./picture/dabby_1.pdf> <./picture/dabby_2.pdf>] [4 <./picture/melody_varia
-tion.pdf>]
-<./picture/dabby_melody_variation.pdf, id=67, 597.51233pt x 845.0471pt>
-File: ./picture/dabby_melody_variation.pdf Graphic file (type pdf)
-<use ./picture/dabby_melody_variation.pdf>
-Package pdftex.def Info: ./picture/dabby_melody_variation.pdf  used on input li
-ne 219.
-(pdftex.def)             Requested size: 324.36661pt x 46.094pt.
- [5 <./picture/dabby_melody_variation.pdf>] (test.aux)
+
+
+LaTeX Warning: Citation 'qi_energy_2017' on page 2 undefined on input line 52.
+
+[2] (test (1).aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1056,38 +1161,34 @@ LaTeX Warning: There were undefined references.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                test
+(biblatex)                "test (1)"
 (biblatex)                and rerun LaTeX afterwards.
 
-Package logreq Info: Writing requests to 'test.run.xml'.
-\openout1 = `test.run.xml'.
+Package logreq Info: Writing requests to '"test (1)".run.xml'.
+\openout1 = `"test (1).run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22525 strings out of 474541
- 450980 string characters out of 5743009
- 1945978 words of memory out of 5000000
- 44427 multiletter control sequences out of 15000+600000
- 564581 words of font info for 60 fonts, out of 8000000 for 9000
+ 23927 strings out of 474541
+ 477505 string characters out of 5743009
+ 1933978 words of memory out of 5000000
+ 45819 multiletter control sequences out of 15000+600000
+ 565781 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,10n,93p,977b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,93p,1903b,1148s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/helpdesk/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/helpdesk/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/helpdesk
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Use
-rs/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.p
-fb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/amsfonts/cm/cmsy6.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/helpdesk/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/helpdesk/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on test.pdf (5 pages, 285995 bytes).
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/helpdesk/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/helpdesk/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/helpdesk/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/User
+s/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb>
+Output written on "test (1).pdf" (2 pages, 117428 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

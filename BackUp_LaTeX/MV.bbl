@@ -1,0 +1,595 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{bonnici_music_2021}{book}{}
+      \name{author}{4}{}{%
+        {{hash=56793861587c0639c80a8d4919348502}{%
+           family={Bonnici},
+           familyi={B\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=63c3cc5e6f545e84b29746ddce9f91af}{%
+           family={Dannenberg},
+           familyi={D\bibinitperiod},
+           given={Roger\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=63837cfcf2aa462f3a7bb57cf185159a}{%
+           family={Kemper},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=802bc4193a2160a6637b9d5e5bbdf4eb}{%
+           family={Camilleri},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media {SA}}%
+      }
+      \strng{namehash}{a1e8d3f6ed6d81f02583b957d20501d5}
+      \strng{fullhash}{aee24ec88616ceb1583a1e94f76879ec}
+      \strng{bibnamehash}{a1e8d3f6ed6d81f02583b957d20501d5}
+      \strng{authorbibnamehash}{a1e8d3f6ed6d81f02583b957d20501d5}
+      \strng{authornamehash}{a1e8d3f6ed6d81f02583b957d20501d5}
+      \strng{authorfullhash}{aee24ec88616ceb1583a1e94f76879ec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{isbn}{978-2-88966-602-7}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{pagetotal}{170}
+      \field{title}{Music and {AI}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \keyw{Science / General}
+    \endentry
+    \entry{may_simple_1976}{article}{}
+      \name{author}{1}{}{%
+        {{hash=84e6e0ad61782a75a62d946e2c68ed62}{%
+           family={May},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{84e6e0ad61782a75a62d946e2c68ed62}
+      \strng{fullhash}{84e6e0ad61782a75a62d946e2c68ed62}
+      \strng{bibnamehash}{84e6e0ad61782a75a62d946e2c68ed62}
+      \strng{authorbibnamehash}{84e6e0ad61782a75a62d946e2c68ed62}
+      \strng{authornamehash}{84e6e0ad61782a75a62d946e2c68ed62}
+      \strng{authorfullhash}{84e6e0ad61782a75a62d946e2c68ed62}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{978-1-4419-2330-1}
+      \field{journaltitle}{Nature}
+      \field{month}{7}
+      \field{shortjournal}{Nature}
+      \field{title}{Simple Mathematical Models With Very Complicated Dynamics}
+      \field{volume}{26}
+      \field{year}{1976}
+      \field{dateera}{ce}
+      \field{pages}{457}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/261459a0
+      \endverb
+    \endentry
+    \entry{mandelbrot_variation_1962}{book}{}
+      \name{author}{1}{}{%
+        {{hash=d1efa9919078b1d84e99492d760dcc14}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Thomas J. Watson Research Center}%
+      }
+      \strng{namehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{fullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{bibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorbibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authornamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorfullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{pagetotal}{100}
+      \field{title}{The Variation of Certain Speculative Prices}
+      \field{year}{1962}
+      \field{dateera}{ce}
+    \endentry
+    \entry{izhikevich_neural_2000}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ee2b8810411e116c7626b7ea8843929e}{%
+           family={Izhikevich},
+           familyi={I\bibinitperiod},
+           given={E.M.},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee2b8810411e116c7626b7ea8843929e}
+      \strng{fullhash}{ee2b8810411e116c7626b7ea8843929e}
+      \strng{bibnamehash}{ee2b8810411e116c7626b7ea8843929e}
+      \strng{authorbibnamehash}{ee2b8810411e116c7626b7ea8843929e}
+      \strng{authornamehash}{ee2b8810411e116c7626b7ea8843929e}
+      \strng{authorfullhash}{ee2b8810411e116c7626b7ea8843929e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{International Journal of Bifurcation and Chaos in Applied Sciences and Engineering}
+      \field{month}{6}
+      \field{shortjournal}{International Journal of Bifurcation and Chaos in Applied Sciences and Engineering}
+      \field{title}{Neural excitability, spiking and bursting}
+      \field{volume}{10}
+      \field{year}{2000}
+      \field{dateera}{ce}
+      \field{pages}{1171\bibrangedash 1266}
+      \range{pages}{96}
+    \endentry
+    \entry{lorenz_deterministic_1963}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b3eeab11b971bbf5ed269c4f19465b91}{%
+           family={Lorenz},
+           familyi={L\bibinitperiod},
+           given={Edward\bibnamedelima N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b3eeab11b971bbf5ed269c4f19465b91}
+      \strng{fullhash}{b3eeab11b971bbf5ed269c4f19465b91}
+      \strng{bibnamehash}{b3eeab11b971bbf5ed269c4f19465b91}
+      \strng{authorbibnamehash}{b3eeab11b971bbf5ed269c4f19465b91}
+      \strng{authornamehash}{b3eeab11b971bbf5ed269c4f19465b91}
+      \strng{authorfullhash}{b3eeab11b971bbf5ed269c4f19465b91}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{3}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{2}
+      \field{title}{Deterministic Nonperiodic Flow}
+      \field{volume}{20}
+      \field{year}{1963}
+      \field{dateera}{ce}
+      \field{pages}{130\bibrangedash 141}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1963)020<0130:DNF>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:C\:\\Users\\helpdesk\\Zotero\\storage\\D2ZYA6FC\\Lorenz - 1963 - Deterministic Nonperiodic Flow.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{tlelo-cuautle_analogdigital_2019}{book}{}
+      \name{author}{4}{}{%
+        {{hash=045c1ddb116816e6dd65cdc17d259745}{%
+           family={Tlelo-Cuautle},
+           familyi={T\bibinithyphendelim C\bibinitperiod},
+           given={Esteban},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f9c764de19880880bd09db375873ca70}{%
+           family={Pano-Azucena},
+           familyi={P\bibinithyphendelim A\bibinitperiod},
+           given={Ana\bibnamedelima Dalia},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=2acf34c7fa7984ac835a5c06c55b3e23}{%
+           family={Guillén-Fernández},
+           familyi={G\bibinithyphendelim F\bibinitperiod},
+           given={Omar},
+           giveni={O\bibinitperiod}}}%
+        {{hash=e127123da99f5f1d21ef4bfc8be1748d}{%
+           family={Silva-Juárez},
+           familyi={S\bibinithyphendelim J\bibinitperiod},
+           given={Alejandro},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{f84c4c58377642564375ee24cd949533}
+      \strng{fullhash}{b3cecdcfac22eaa8333de0ca439ebfc3}
+      \strng{bibnamehash}{f84c4c58377642564375ee24cd949533}
+      \strng{authorbibnamehash}{f84c4c58377642564375ee24cd949533}
+      \strng{authornamehash}{f84c4c58377642564375ee24cd949533}
+      \strng{authorfullhash}{b3cecdcfac22eaa8333de0ca439ebfc3}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{isbn}{978-3-030-31250-3}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{pagetotal}{223}
+      \field{title}{Analog/Digital Implementation of Fractional Order Chaotic Circuits and Applications}
+      \field{year}{2019}
+      \field{dateera}{ce}
+    \endentry
+    \entry{petrzela_chaos_2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a153cb66625902a1e95ed5a0dcc961e2}{%
+           family={Petrzela},
+           familyi={P\bibinitperiod},
+           given={Jiri},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a153cb66625902a1e95ed5a0dcc961e2}
+      \strng{fullhash}{a153cb66625902a1e95ed5a0dcc961e2}
+      \strng{bibnamehash}{a153cb66625902a1e95ed5a0dcc961e2}
+      \strng{authorbibnamehash}{a153cb66625902a1e95ed5a0dcc961e2}
+      \strng{authornamehash}{a153cb66625902a1e95ed5a0dcc961e2}
+      \strng{authorfullhash}{a153cb66625902a1e95ed5a0dcc961e2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{4}
+      \field{journaltitle}{Mathematics}
+      \field{month}{11}
+      \field{shortjournal}{Mathematics}
+      \field{shorttitle}{Chaos in Analog Electronic Circuits}
+      \field{title}{Chaos in Analog Electronic Circuits: Comprehensive Review, Solved Problems, Open Topics and Small Example}
+      \field{volume}{10}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{pages}{4108}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/math10214108
+      \endverb
+    \endentry
+    \entry{orue_lorenz_2006}{article}{}
+      \name{author}{6}{}{%
+        {{hash=59eede0524ef41b58c1f42c604a292a4}{%
+           family={Orue},
+           familyi={O\bibinitperiod},
+           given={Amalia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1f4c2f7ecbc43db9954acb9040549b17}{%
+           family={Alvarez},
+           familyi={A\bibinitperiod},
+           given={Gonzalo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f51b9f1703541bc5f4ecc7d123fd939c}{%
+           family={Romera},
+           familyi={R\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod}}}%
+        {{hash=faa4bc3ad7812c9bc87d0b9e146a32e6}{%
+           family={Pastor},
+           familyi={P\bibinitperiod},
+           given={Gerardo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9c2664d2e8a63889325804a76714979b}{%
+           family={Vitini},
+           familyi={V\bibinitperiod},
+           given={Fausto},
+           giveni={F\bibinitperiod}}}%
+        {{hash=79fff1b9663bbdce9d4926f0ef823aed}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Shujun},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ad9899b0620da76ace8b69914e57761}
+      \strng{fullhash}{3bac04f87e936f1c94264fa1b7da41e7}
+      \strng{bibnamehash}{1ad9899b0620da76ace8b69914e57761}
+      \strng{authorbibnamehash}{1ad9899b0620da76ace8b69914e57761}
+      \strng{authornamehash}{1ad9899b0620da76ace8b69914e57761}
+      \strng{authorfullhash}{3bac04f87e936f1c94264fa1b7da41e7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{7}
+      \field{title}{Lorenz System Parameter Determination and Application to Break the Security of Two-channel Chaotic Cryptosystems}
+      \field{year}{2006}
+      \field{dateera}{ce}
+    \endentry
+    \entry{ge_anti-control_2006}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4b835fd9c440d70b265fbc899560d5b3}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Zheng-Ming},
+           giveni={Z\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=16b3b781073b5e96a98fbcb5e4df3eaa}{%
+           family={Ching\bibnamedelima Ming},
+           familyi={C\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Chang},
+           giveni={C\bibinitperiod}}}%
+        {{hash=785df91e72e468c51fdcc977cc3678fb}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Yen-Sheng},
+           giveni={Y\bibinithyphendelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{78698a8f1cfde690a8285c7b9a537cb9}
+      \strng{fullhash}{78698a8f1cfde690a8285c7b9a537cb9}
+      \strng{bibnamehash}{78698a8f1cfde690a8285c7b9a537cb9}
+      \strng{authorbibnamehash}{78698a8f1cfde690a8285c7b9a537cb9}
+      \strng{authornamehash}{78698a8f1cfde690a8285c7b9a537cb9}
+      \strng{authorfullhash}{78698a8f1cfde690a8285c7b9a537cb9}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{journaltitle}{Chaos, Solitons \& Fractals}
+      \field{month}{3}
+      \field{shortjournal}{Chaos, Solitons \& Fractals}
+      \field{title}{Anti-control of chaos of single time scale brushless dc motors and chaos synchronization of different order systems}
+      \field{volume}{27}
+      \field{year}{2006}
+      \field{dateera}{ce}
+      \field{pages}{1298\bibrangedash 1315}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.chaos.2005.04.095
+      \endverb
+    \endentry
+    \entry{bose_numerical_2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f72ef6b0204867d9f61f140feff714f8}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={Sujit\bibnamedelima Kumar},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f72ef6b0204867d9f61f140feff714f8}
+      \strng{fullhash}{f72ef6b0204867d9f61f140feff714f8}
+      \strng{bibnamehash}{f72ef6b0204867d9f61f140feff714f8}
+      \strng{authorbibnamehash}{f72ef6b0204867d9f61f140feff714f8}
+      \strng{authornamehash}{f72ef6b0204867d9f61f140feff714f8}
+      \strng{authorfullhash}{f72ef6b0204867d9f61f140feff714f8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{13}
+      \field{isbn}{9789811371141}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{pagetotal}{479}
+      \field{title}{Numerical Methods of Mathematics Implemented in Fortran}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \keyw{Mathematics / Applied,Mathematics / Counting \& Numeration,Mathematics / Discrete Mathematics,Mathematics / Logic,Mathematics / Numerical Analysis,Mathematics / Probability \& Statistics / Stochastic Processes}
+    \endentry
+    \entry{dabby_musical_1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ff2231c6712c34be0bdccbacf6c2d4a1}{%
+           family={Dabby},
+           familyi={D\bibinitperiod},
+           given={Diana\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{fullhash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{bibnamehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{authorbibnamehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{authornamehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{authorfullhash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{1}
+      \field{issn}{1054-1500}
+      \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{month}{6}
+      \field{number}{2}
+      \field{shortjournal}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{title}{Musical variations from a chaotic mapping}
+      \field{volume}{6}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{95\bibrangedash 107}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1063/1.166171
+      \endverb
+      \verb{file}
+      \verb Snapshot:C\:\\Users\\helpdesk\\Zotero\\storage\\ZU5GWKJB\\Musical-variations-from-a-chaotic-mapping.html:text/html;Submitted Version:C\:\\Users\\helpdesk\\Zotero\\storage\\IKSIMCAQ\\Dabby - 1996 - Musical variations from a chaotic mapping.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{carter_music_2016}{book}{}
+      \name{author}{1}{}{%
+        {{hash=7905f364d1824e024130b79b5722e849}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {4th edition}%
+      }
+      \strng{namehash}{7905f364d1824e024130b79b5722e849}
+      \strng{fullhash}{7905f364d1824e024130b79b5722e849}
+      \strng{bibnamehash}{7905f364d1824e024130b79b5722e849}
+      \strng{authorbibnamehash}{7905f364d1824e024130b79b5722e849}
+      \strng{authornamehash}{7905f364d1824e024130b79b5722e849}
+      \strng{authorfullhash}{7905f364d1824e024130b79b5722e849}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{11}
+      \field{month}{8}
+      \field{pagetotal}{244}
+      \field{shorttitle}{Music Theory}
+      \field{title}{Music Theory: From Beginner to Expert - The Ultimate Step-By-Step Guide to Understanding and Learning Music Theory Effortlessly}
+      \field{year}{2016}
+      \field{dateera}{ce}
+    \endentry
+    \entry{hinson_12_1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c510465887430cbf4b2a632586d2e641}{%
+           family={Hinson},
+           familyi={H\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{ALFRED} {PUBN}}%
+      }
+      \strng{namehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{fullhash}{c510465887430cbf4b2a632586d2e641}
+      \strng{bibnamehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{authorbibnamehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{authornamehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{authorfullhash}{c510465887430cbf4b2a632586d2e641}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-7390-2032-6}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{pagetotal}{16}
+      \field{title}{12 Variations on Ah, Vous Dirai-Je, Maman, K. 265}
+      \field{year}{1987}
+      \field{dateera}{ce}
+    \endentry
+    \entry{khare_play_2020}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8d420b22a82d279e14297fd29a0414fe}{%
+           family={Khare},
+           familyi={K\bibinitperiod},
+           given={Vanshika\bibnamedelima Verma},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Notion Press}%
+      }
+      \strng{namehash}{8d420b22a82d279e14297fd29a0414fe}
+      \strng{fullhash}{8d420b22a82d279e14297fd29a0414fe}
+      \strng{bibnamehash}{8d420b22a82d279e14297fd29a0414fe}
+      \strng{authorbibnamehash}{8d420b22a82d279e14297fd29a0414fe}
+      \strng{authornamehash}{8d420b22a82d279e14297fd29a0414fe}
+      \strng{authorfullhash}{8d420b22a82d279e14297fd29a0414fe}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{21}
+      \field{isbn}{978-1-64892-909-0}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{pagetotal}{241}
+      \field{shorttitle}{Play Keyboard with Ease}
+      \field{title}{Play Keyboard with Ease: Chords and Notations of Top Bollywood Songs}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \keyw{Music / Instruction \& Study / Techniques}
+    \endentry
+    \entry{gerou_essential_1996}{book}{}
+      \name{author}{2}{}{%
+        {{hash=723e8e3e45fbca5c32179a749667923d}{%
+           family={Gerou},
+           familyi={G\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod}}}%
+        {{hash=6f26d2a86128f48c097660c2da05fc58}{%
+           family={Lusk},
+           familyi={L\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Alfred Publishing Company}%
+      }
+      \strng{namehash}{bcff4ab35a67850c176c8065c2c666d9}
+      \strng{fullhash}{bcff4ab35a67850c176c8065c2c666d9}
+      \strng{bibnamehash}{bcff4ab35a67850c176c8065c2c666d9}
+      \strng{authorbibnamehash}{bcff4ab35a67850c176c8065c2c666d9}
+      \strng{authornamehash}{bcff4ab35a67850c176c8065c2c666d9}
+      \strng{authorfullhash}{bcff4ab35a67850c176c8065c2c666d9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-88284-730-6}
+      \field{langid}{english}
+      \field{pagetotal}{351}
+      \field{title}{Essential Dictionary of Music Notation}
+      \field{year}{1996}
+      \field{dateera}{ce}
+    \endentry
+    \entry{pachelbel_canon_2005}{book}{}
+      \name{author}{2}{}{%
+        {{hash=37a2f76c912b7fd2a823deab66931bc3}{%
+           family={Pachelbel},
+           familyi={P\bibinitperiod},
+           given={Johann},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8ec020d6c4f8399c541871ba0be8d1fd}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={Willard\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Alfred Music}%
+      }
+      \strng{namehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{fullhash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{bibnamehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{authorbibnamehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{authornamehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{authorfullhash}{200df74fb5e83f3e77a6fc4336250514}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{3}
+      \field{isbn}{978-0-7390-7134-2}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{pagetotal}{8}
+      \field{shorttitle}{Canon in D}
+      \field{title}{Canon in D: Variations on the Theme for Piano}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+  \enddatalist
+  \missing{fig:FCDSD}
+  \missing{fig:FCMVADSD}
+\endrefsection
+\endinput
+
