@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  29 APR 2024 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.1.31)  30 APR 2024 02:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -962,7 +962,14 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 \c@theorem=\count451
 \@quotelevel=\count452
 \@quotereset=\count453
- (MV.aux)
+ (MV.aux
+
+LaTeX Warning: Label `subfig2:mp' multiply defined.
+
+
+LaTeX Warning: Label `sub@subfig2:mp' multiply defined.
+
+)
 \openout1 = `MV.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
@@ -1081,204 +1088,166 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/helpdesk/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-[2]
-<./picture/Lorenz.pdf, id=16, 867.24pt x 867.24pt>
-File: ./picture/Lorenz.pdf Graphic file (type pdf)
-<use ./picture/Lorenz.pdf>
-Package pdftex.def Info: ./picture/Lorenz.pdf  used on input line 83.
+<./picture/Lorenz1.pdf, id=13, 867.24pt x 867.24pt>
+File: ./picture/Lorenz1.pdf Graphic file (type pdf)
+<use ./picture/Lorenz1.pdf>
+Package pdftex.def Info: ./picture/Lorenz1.pdf  used on input line 60.
 (pdftex.def)             Requested size: 226.03044pt x 226.03044pt.
- [3]
-Overfull \hbox (21.52083pt too wide) in paragraph at lines 105--106
-\OT1/cmr/m/n/10.95 For a mu-si-cal sheet, let $\OML/cmm/m/it/10.95 m$ \OT1/cmr/
-m/n/10.95 be a pos-i-tive in-te-ger rep-re-sent-ing a num-ber of notes, $\OML/c
-mm/m/it/10.95 P \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 p
-[]; p[]; [] ; p[]\OMS/cmsy/m/n/10.95 g$
+
+Overfull \hbox (22.19627pt too wide) in paragraph at lines 60--61
+ [][] 
  []
 
+<./picture/Lorenz2.pdf, id=15, 867.24pt x 867.24pt>
+File: ./picture/Lorenz2.pdf Graphic file (type pdf)
+<use ./picture/Lorenz2.pdf>
+Package pdftex.def Info: ./picture/Lorenz2.pdf  used on input line 66.
+(pdftex.def)             Requested size: 226.03044pt x 226.03044pt.
 
-Overfull \hbox (3.71318pt too wide) in paragraph at lines 108--116
+Overfull \hbox (22.19627pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
+
+[2 <./picture/Lorenz1.pdf> <./picture/Lorenz2.pdf>]
+<./picture/pitchesonstaff.png, id=55, 2581.645pt x 823.075pt>
+File: ./picture/pitchesonstaff.png Graphic file (type png)
+<use ./picture/pitchesonstaff.png>
+Package pdftex.def Info: ./picture/pitchesonstaff.png  used on input line 82.
+(pdftex.def)             Requested size: 258.17963pt x 82.31232pt.
+
+Overfull \hbox (3.71318pt too wide) in paragraph at lines 107--115
 \OT1/cmr/m/n/10.95 be a chaotic dy-nam-i-cal sys-tem with an ini-tial con-di-ti
 on $\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 (0) \OMS/cmsy/m/n/10.95 2 \U/msb/m/
 n/10.95 R[]$\OT1/cmr/m/n/10.95 , where $\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95
  (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) = []$
  []
 
-[4 <./picture/Lorenz.pdf>]
-<./picture/dabby_1.pdf, id=48, 597.51233pt x 845.0471pt>
+[3 <./picture/pitchesonstaff.png (PNG copy)>]
+<./picture/dabby_1.pdf, id=65, 597.51233pt x 845.0471pt>
 File: ./picture/dabby_1.pdf Graphic file (type pdf)
 <use ./picture/dabby_1.pdf>
-Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 165.
+Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 167.
 (pdftex.def)             Requested size: 282.96666pt x 90.47972pt.
-<./picture/dabby_2.pdf, id=50, 597.51233pt x 845.0471pt>
+<./picture/dabby_2.pdf, id=67, 597.51233pt x 845.0471pt>
 File: ./picture/dabby_2.pdf Graphic file (type pdf)
 <use ./picture/dabby_2.pdf>
-Package pdftex.def Info: ./picture/dabby_2.pdf  used on input line 172.
+Package pdftex.def Info: ./picture/dabby_2.pdf  used on input line 174.
 (pdftex.def)             Requested size: 281.6859pt x 90.47972pt.
- [5 <./picture/dabby_1.pdf> <./picture/dabby_2.pdf>]
-[6]
+ [4 <./picture/dabby_1.pdf> <./picture/dabby_2.pdf>] [5]
 File: ./picture/dabby_1.pdf Graphic file (type pdf)
 <use ./picture/dabby_1.pdf>
-Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 346.
-(pdftex.def)             Requested size: 217.66734pt x 90.47972pt.
-<./picture/melody_variation.pdf, id=81, 597.51233pt x 845.0471pt>
+Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 365.
+(pdftex.def)             Requested size: 161.47356pt x 90.47972pt.
+<./picture/melody_variation.pdf, id=98, 597.51233pt x 845.0471pt>
 File: ./picture/melody_variation.pdf Graphic file (type pdf)
 <use ./picture/melody_variation.pdf>
-Package pdftex.def Info: ./picture/melody_variation.pdf  used on input line 353
+Package pdftex.def Info: ./picture/melody_variation.pdf  used on input line 372
 .
-(pdftex.def)             Requested size: 324.36661pt x 46.094pt.
-
-Overfull \hbox (21.52083pt too wide) in paragraph at lines 360--361
-\OT1/cmr/m/n/10.95 For a mu-si-cal sheet, let $\OML/cmm/m/it/10.95 m$ \OT1/cmr/
-m/n/10.95 be a pos-i-tive in-te-ger rep-re-sent-ing a num-ber of notes, $\OML/c
-mm/m/it/10.95 P \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\OML/cmm/m/it/10.95 p
-[]; p[]; [] ; p[]\OMS/cmsy/m/n/10.95 g$
- []
-
-
-Overfull \hbox (3.71318pt too wide) in paragraph at lines 363--371
-\OT1/cmr/m/n/10.95 be a chaotic dy-nam-i-cal sys-tem with an ini-tial con-di-ti
-on $\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 (0) \OMS/cmsy/m/n/10.95 2 \U/msb/m/
-n/10.95 R[]$\OT1/cmr/m/n/10.95 , where $\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95
- (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 ) = []$
- []
-
-[7 <./picture/melody_variation.pdf>]
-Overfull \hbox (4.45314pt too wide) in paragraph at lines 384--386
-\OT1/cmr/m/n/10.95 of $(0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5\OML/cmm/m/it
-/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5\OML/cmm/
-m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 5)$ is
- de-noted by $\OML/cmm/m/it/10.95 X \OT1/cmr/m/n/10.95 = \OMS/cmsy/m/n/10.95 f\
-OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 50\OML/cmm/m/it/10.9
-5 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 65\OML/cmm/m/it
-/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 08\OML/cmm
-/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 91\OM
-L/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 
-41\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/1
-0.95 03\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 10\OML/cmm/m/it/10.95 :\OT1/cmr
-/m/n/10.95 33\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 16\OML/cmm/m/it/10.95 :\O
-T1/cmr/m/n/10.95 04\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 19\OML/cmm/m/it/10.
-95 :\OT1/cmr/m/n/10.95 69\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 16\OML/cmm/m/
-it/10.95 :\OT1/cmr/m/n/10.95 35\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 8\OML/c
-mm/m/it/10.95 :\OT1/cmr/m/n/10.95 51\OML/cmm/m/it/10.95 ; [] 
- []
-
-
-Overfull \hbox (8.2097pt too wide) in paragraph at lines 401--402
-\OMS/cmsy/m/n/10.95 f\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.9
-5 60\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n
-/10.95 73\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 1\OML/cmm/m/it/10.95 :\OT1/cm
-r/m/n/10.95 21\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 :\O
-T1/cmr/m/n/10.95 13\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 3\OML/cmm/m/it/10.9
-5 :\OT1/cmr/m/n/10.95 79\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 6\OML/cmm/m/it
-/10.95 :\OT1/cmr/m/n/10.95 67\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 11\OML/cm
-m/m/it/10.95 :\OT1/cmr/m/n/10.95 30\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.95 17\
-OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 02\OML/cmm/m/it/10.95 ; \OT1/cmr/m/n/10.
-95 19\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 67\OML/cmm/m/it/10.95 ; \OT1/cmr/m
-/n/10.95 15\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 07\OML/cmm/m/it/10.95 ; \OT1
-/cmr/m/n/10.95 7\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 11\OML/cmm/m/it/10.95 ;
- \OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 81\OML/cmm/m/it/10
-.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 2\OML/cmm/m/it/10.95 :\OT1/cmr/
-m/n/10.95 98\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 5\O
-ML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 09\OML/cmm/m/it/10.95 ; \OMS/cmsy/m/n/10.
-95 ^^@\OT1/cmr/m/n/10.95 6\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 33\OML/cmm/m/
-it/10.95 ; \OMS/cmsy/m/n/10.95 ^^@\OT1/cmr/m/n/10.95 7\OML/cmm/m/it/10.95 :\OT1
-/cmr/m/n/10.95 21\OMS/cmsy/m/n/10.95 g$ \OT1/cmr/m/n/10.95 is
- []
-
+(pdftex.def)             Requested size: 194.36487pt x 46.094pt.
 File: ./picture/dabby_1.pdf Graphic file (type pdf)
 <use ./picture/dabby_1.pdf>
-Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 422.
+Package pdftex.def Info: ./picture/dabby_1.pdf  used on input line 387.
 (pdftex.def)             Requested size: 339.44482pt x 90.47972pt.
-<./picture/dabby_melody_variation.pdf, id=99, 597.51233pt x 845.0471pt>
+<./picture/dabby_melody_variation.pdf, id=101, 597.51233pt x 845.0471pt>
 File: ./picture/dabby_melody_variation.pdf Graphic file (type pdf)
 <use ./picture/dabby_melody_variation.pdf>
 Package pdftex.def Info: ./picture/dabby_melody_variation.pdf  used on input li
-ne 429.
+ne 394.
 (pdftex.def)             Requested size: 322.94266pt x 76.82256pt.
 
-Overfull \hbox (10.53125pt too wide) in paragraph at lines 524--525
+Overfull \hbox (8.17192pt too wide) in paragraph at lines 439--440
  [][] 
  []
 
 
-Overfull \hbox (16.98438pt too wide) in paragraph at lines 552--553
+Overfull \hbox (14.17163pt too wide) in paragraph at lines 465--466
  [][] 
  []
 
 
-Overfull \hbox (10.18924pt too wide) in paragraph at lines 576--577
+Overfull \hbox (34.98769pt too wide) in paragraph at lines 489--490
  [][] 
  []
 
-[8] [9 <./picture/dabby_melody_variation.pdf>]
-<./picture/Original_CND.pdf, id=118, 597.51233pt x 845.0471pt>
+
+Overfull \hbox (40.46687pt too wide) in paragraph at lines 517--518
+ [][] 
+ []
+
+
+Overfull \hbox (40.46687pt too wide) in paragraph at lines 541--542
+ [][] 
+ []
+
+[6 <./picture/melody_variation.pdf>] [7 <./picture/dabby_melody_variation.pdf>]
+<./picture/Original_CND.pdf, id=132, 597.51233pt x 845.0471pt>
 File: ./picture/Original_CND.pdf Graphic file (type pdf)
 <use ./picture/Original_CND.pdf>
-Package pdftex.def Info: ./picture/Original_CND.pdf  used on input line 598.
+Package pdftex.def Info: ./picture/Original_CND.pdf  used on input line 563.
 (pdftex.def)             Requested size: 324.36661pt x 46.094pt.
-<./picture/New_CND.pdf, id=120, 597.51233pt x 845.0471pt>
+<./picture/New_CND.pdf, id=134, 597.51233pt x 845.0471pt>
 File: ./picture/New_CND.pdf Graphic file (type pdf)
 <use ./picture/New_CND.pdf>
-Package pdftex.def Info: ./picture/New_CND.pdf  used on input line 605.
+Package pdftex.def Info: ./picture/New_CND.pdf  used on input line 570.
 (pdftex.def)             Requested size: 324.36661pt x 151.93901pt.
-<./picture/Original_ATM.pdf, id=122, 597.51233pt x 845.0471pt>
+<./picture/Original_ATM.pdf, id=136, 597.51233pt x 845.0471pt>
 File: ./picture/Original_ATM.pdf Graphic file (type pdf)
 <use ./picture/Original_ATM.pdf>
-Package pdftex.def Info: ./picture/Original_ATM.pdf  used on input line 616.
+Package pdftex.def Info: ./picture/Original_ATM.pdf  used on input line 581.
 (pdftex.def)             Requested size: 324.36661pt x 46.094pt.
-<./picture/New_ATM.pdf, id=124, 597.51233pt x 845.0471pt>
+<./picture/New_ATM.pdf, id=138, 597.51233pt x 845.0471pt>
 File: ./picture/New_ATM.pdf Graphic file (type pdf)
 <use ./picture/New_ATM.pdf>
-Package pdftex.def Info: ./picture/New_ATM.pdf  used on input line 623.
+Package pdftex.def Info: ./picture/New_ATM.pdf  used on input line 588.
 (pdftex.def)             Requested size: 324.36661pt x 93.0414pt.
- [10 <./picture/Original_CND.pdf> <./picture/New_CND.pdf> <./picture/Original_A
-TM.pdf>]
-Overfull \hbox (12.98865pt too wide) in paragraph at lines 665--665
+[8 <./picture/Original_CND.pdf> <./picture/New_CND.pdf> <./picture/Original_ATM
+.pdf>]
+Overfull \hbox (12.98865pt too wide) in paragraph at lines 612--612
 []\OT1/cmr/m/it/10.95 Weather Pat-tern - an overview | Sci-enceDi-rect Top-ics\
 OT1/cmr/m/n/10.95 . \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt/m/n/
 10.95 https : / / www . sciencedirect .
  []
 
 
-Overfull \hbox (9.75014pt too wide) in paragraph at lines 665--665
+Overfull \hbox (9.75014pt too wide) in paragraph at lines 612--612
 \OT1/cmtt/m/n/10.95 com / topics / earth -[] and -[] planetary -[] sciences / w
 eather -[] pattern$ \OT1/cmr/m/n/10.95 (vis-ited on 04/28/2024). 
  []
 
-[11 <./picture/New_ATM.pdf>]
-Overfull \hbox (5.82863pt too wide) in paragraph at lines 665--665
+[9 <./picture/New_ATM.pdf>]
+Overfull \hbox (5.82863pt too wide) in paragraph at lines 612--612
 []\OT1/cmr/m/it/10.95 Turbulent Flow - an overview | Sci-enceDi-rect Top-ics\OT
 1/cmr/m/n/10.95 . \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt/m/n/10
 .95 https : / / www . sciencedirect .
  []
 
 
-Overfull \hbox (35.7828pt too wide) in paragraph at lines 665--665
+Overfull \hbox (35.7828pt too wide) in paragraph at lines 612--612
 []\OT1/cmr/m/it/10.95 Population Dy-nam-ics - an overview | Sci-enceDi-rect Top
 -ics\OT1/cmr/m/n/10.95 . \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt
 /m/n/10.95 https : / / www . sciencedirect .
  []
 
-[12]
-Overfull \hbox (42.31467pt too wide) in paragraph at lines 665--665
+[10]
+Overfull \hbox (42.31467pt too wide) in paragraph at lines 612--612
 []\OT1/cmr/m/n/10.95 Artur Ka-ri-mov et al. ``Em-pir-i-cally de-vel-oped model 
 of the stirring-controlled Be-lousov{Zhabotinsky
  []
 
 
-Overfull \hbox (7.82207pt too wide) in paragraph at lines 665--665
+Overfull \hbox (7.82207pt too wide) in paragraph at lines 612--612
 []\OT1/cmr/m/n/10.95 Jiraporn Lu-engviriya et al. ``Me-an-der-ing spi-ral waves
  in a bubble-free Be-lousov{Zhabotinsky
  []
 
 
-Overfull \hbox (11.2975pt too wide) in paragraph at lines 665--665
+Overfull \hbox (11.2975pt too wide) in paragraph at lines 612--612
 []\OT1/cmr/m/it/10.95 Lorenz Equa-tion - an overview | Sci-enceDi-rect Top-ics\
 OT1/cmr/m/n/10.95 . \OT1/cmr/m/sc/10.95 url\OT1/cmr/m/n/10.95 : $\OT1/cmtt/m/n/
 10.95 https : / / www . sciencedirect .
  []
 
-[13] (MV.aux)
+[11] (MV.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1286,6 +1255,9 @@ L3 programming layer <2024-01-22>
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1297,13 +1269,13 @@ Package logreq Info: Writing requests to 'MV.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24985 strings out of 474541
- 503151 string characters out of 5743009
- 2016978 words of memory out of 5000000
- 46849 multiletter control sequences out of 15000+600000
+ 25063 strings out of 474541
+ 504906 string characters out of 5743009
+ 2017978 words of memory out of 5000000
+ 46927 multiletter control sequences out of 15000+600000
  568603 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,131p,1959b,1330s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 117i,10n,131p,1174b,1330s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/font
@@ -1316,17 +1288,17 @@ sers/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
 nts/cm/cmr10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmr12.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/helpdesk/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/helpdesk/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/helpdesk
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Use
-rs/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.
-pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmti10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmtt10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MV.pdf (13 pages, 690406 bytes).
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/helpdesk/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/helpdesk/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmti10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmtt10.pfb><C:/Users/helpdesk/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on MV.pdf (11 pages, 1152100 bytes).
 PDF statistics:
- 252 PDF objects out of 1000 (max. 8388607)
+ 265 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 124 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 140 words of extra memory for PDF output out of 10000 (max. 10000000)
 

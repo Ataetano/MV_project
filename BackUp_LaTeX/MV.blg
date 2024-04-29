@@ -1,18 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'MV.blg'
-[142] biber-MSWIN64:340> INFO - === 
-[196] Biber.pm:419> INFO - Reading 'MV.bcf'
-[335] Biber.pm:979> INFO - Found 18 citekeys in bib section 0
-[353] Biber.pm:4419> INFO - Processing section 0
-[369] Biber.pm:4610> INFO - Looking for bibtex file 'MV.bib' for section 0
-[430] bibtex.pm:1713> INFO - LaTeX decoding ...
-[466] bibtex.pm:1519> INFO - Found BibTeX data source 'MV.bib'
-[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[605] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[605] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[616] bbl.pm:660> INFO - Writing 'MV.bbl' with encoding 'UTF-8'
-[625] bbl.pm:763> INFO - Output to MV.bbl
-[625] Biber.pm:131> WARN - I didn't find a database entry for 'fig:FCDSD' (section 0)
-[625] Biber.pm:131> WARN - I didn't find a database entry for 'fig:FCMVADSD' (section 0)
-[626] Biber.pm:133> INFO - WARNINGS: 2
+[141] biber-MSWIN64:340> INFO - === 
+[192] Biber.pm:419> INFO - Reading 'MV.bcf'
+[336] Biber.pm:979> INFO - Found 33 citekeys in bib section 0
+[352] Biber.pm:4419> INFO - Processing section 0
+[366] Biber.pm:4610> INFO - Looking for bibtex file 'MV.bib' for section 0
+[434] bibtex.pm:1713> INFO - LaTeX decoding ...
+[504] bibtex.pm:1519> INFO - Found BibTeX data source 'MV.bib'
+[743] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[743] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[744] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[744] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[776] bbl.pm:660> INFO - Writing 'MV.bbl' with encoding 'UTF-8'
+[797] bbl.pm:763> INFO - Output to MV.bbl
