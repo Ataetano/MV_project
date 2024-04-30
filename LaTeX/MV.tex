@@ -51,31 +51,15 @@ In this work, we explore the theory behind chaotic system equations and the basi
 
 \section{Literature Review}
 \label{sec: literaturereview}
-\todo{Waiting the content.}
+we will introduce the necessary mathematical notation and music theory concepts to understanding this paper. 
+We begin by defining the relevant mathematical notation. 
+Let $\mathbb{N}_n$ denote the sequence of natural number with $n$-elements defined by $\mathbb{N}_n = \{ 1, 2, \dots, n \}$ and $\mathbb{R}^n$ be a n-dimensional euclidean space. Additionally, $\dot{x}(t)$ represents a system of ordinary differential equations. Here, $\dot{x}$ represents the derivative of $x$ with respect to time. Furthermore, let $x^*$ is a equilibrium point if $\dot{x}(t) = f(t, x^*) = 0$ for all $t \geq 0$. Lastly, let $\phi_i:\mathbb{R}_+ \to \mathbb{R}$, we can define the domain of the $\phi_i$ by $\dom{\phi_i} =  \{x | x \in \mathbb{R}_+ \}$.
 
-\begin{figure}
-\centering
-\begin{subfigure}{0.45\textwidth}
-  \centering
-  \includegraphics[trim=2cm 2cm 2cm 2cm, clip, scale=0.3]{Lorenz1.pdf}
-  \caption{The Lorenz system with initial condition $(1,1,1)$.}
-  \label{subfig1:mp}
-\end{subfigure}\hfill
-\begin{subfigure}{0.45\textwidth}
-  \centering
-  \includegraphics[trim=2cm 2cm 2cm 2cm, clip, scale=0.3]{Lorenz2.pdf}
-  \caption{The Lorenz system with initial condition $(0.999,1,1)$.}
-  \label{subfig2:mp}
-\end{subfigure}
-\caption{Chaotic behavior of the Lorenz system with different initial conditions.}
-\label{fig:LE}
-\end{figure}
-
-In our paper, we will introduce the necessary music theory concepts and mathematical definitions to understanding this paper. In music theory, a musical note is a symbol on a staff that represents pitch, which refers to the highness or lowness of a sound. Notes are typically represented by the letters A through G, corresponding to the solfege syllables (Do, Re, Mi, Fa, Sol, La, Ti).
-Musical notation also incorporates numbers to specify the precise pitch of a musical note. As shown in Figure \ref{fig:musical note}, there are two sets of five horizontal lines, known as the treble clef (the top set of lines) and the bass clef (the bottom set of lines).
+Within music theory, a musical note is a symbol on a staff that represents pitch, which refers to the highness or lowness of a sound. Notes are typically represented by the letters A through G, corresponding to the solfege syllables (Do, Re, Mi, Fa, Sol, La, Ti). Musical notation also incorporates numbers to specify the precise pitch of a musical note. As shown in Figure \ref{fig:musical note}, there are two sets of five horizontal lines, known as the treble clef (the top set of lines) and the bass clef (the bottom set of lines).
 The treble clef is used to represent higher pitches, while the bass clef is used to represent lower pitches. Each line and space on the staff corresponds to a specific pitch. For example, the note C4 (indicated in Figure \ref{fig:musical note}) is lower in pitch than the note D4, which is located on the line above it.
 Similarly, the note C6 (shown above the treble clef in Figure \ref{fig:musical note}) represents a higher pitch than the note C5, which is located on the second-highest line of the treble clef. Therefore, notes higher on the staff represent higher pitches, and notes lower on the staff represent lower pitches.
-It is important to note that the pitches represented on the treble clef are generally higher than those represented on the bass clef. For instance, C5 (located on the treble clef) has a higher pitch than B4 (located on the bass clef).
+It is important to note that the pitches represented on the treble clef are generally higher than those represented on the bass clef. For instance, C5 (located on the treble clef) has a higher pitch than B4 (located on the bass clef). 
+Additionally, each musical note has a duration symbol that specifies how long it should be played. Durations are typically defined using the unit "beat," which refers to a chosen time interval. For example, if we establish from a duration table (see Figure \ref{fig:note duration}) that 1 beat is equivalent to playing a musical note for 1 second, then 2 beats would correspond to playing a note for 2 seconds. For convenience, we can establish a general rule: let t beats equal playing a musical note for t seconds, where t is any positive number. This rule allows us to understand the meaning of fractional beats. For instance, 0.5 beats would signify playing a musical note for 0.5 seconds. This example emphasizes that the relationship of t beats to playing a note for t seconds is a common way to explain the fundamental concept of musical note durations. 
 
 \begin{figure}
 \centering
@@ -84,6 +68,43 @@ It is important to note that the pitches represented on the treble clef are gene
 \label{fig:musical note} 
 \end{figure}
 
+\begin{figure}
+\centering
+\includegraphics[scale=0.1]{note_duration.png} % trim={left bottom right top}
+\caption{The duration table of musical note.}
+\label{fig:note duration} 
+\end{figure}
+
+Recent advancements in the study of chaotic systems have sparked significant interest in designing systems with diverse characteristics. These systems range from those devoid of equilibrium points \cite{ren2018new,wang2019sbox} to those with only one stable equilibrium \cite{wang2012chaotic}, two stable equilibria \cite{wang2017chaotic}, multi-scroll attractors \cite{rajagopal2019multiscroll,pehlivan2019multiscroll}, various types of symmetry \cite{field2009symmetry}, and beyond. There are also uses of memristors, memcapacitors, cubic nonlinear resistors, and piecewise linear functions as nonlinear factors to create chaos \cite{wei2018synchronisation,varan2018control,rajagopal2019dynamical,akgul2019chaotic,rajagopal2019simple}. For example, these properties are often applied to chaotic systems those employed in modeling natural phenomena \cite{sanabria_modelling_2020}, are exemplified by their capacity to elucidate various natural phenomena, including weather patterns \cite{noauthor_weather_nodate}, turbulent fluid flows \cite{noauthor_turbulent_nodate}, ecological systems \cite{crawford_ecological_2020}, and population dynamics \cite{noauthor_population_nodate}. In the domain of finance and economics \cite{liao_study_2020}, scholars investigate chaotic dynamics to model stock market fluctuations \cite{vogl_chaos_2024}, economic cycles \cite{tusset_dynamic_2023}, and price dynamics \cite{ait_omar_chaotic_2022}, thereby providing insights into the intrinsic unpredictability and nonlinear behavior inherent in financial systems. Likewise, within biomedical systems \cite{grigorenko_study_2022}, chaotic systems assume a pivotal role in the modeling and comprehension of intricate biological systems \cite{li_incorporating_2023}, encompassing neural networks \cite{lin_chaotic_2020}, cardiac rhythms \cite{cheffer_biochaos_2022}, and gene regulatory networks \cite{uthamacumaran_review_2021}. The Belousov-Zhabotinsky Reaction, a chaotic system exhibiting spiral wave patterns from its nature, can create cellular automata models with complex behavior based on reactant concentrations and temperature \cite{karimov_empirically_2023,luengviriya_meandering_2013,chopard_cellular_2022}. A chaotic system is characterized by three fundamental properties essential for comprehending its behavior. Firstly, it displays long-term dynamics devoid of periodicity, avoiding convergence towards a fixed point. Secondly, its behavior, though seemingly irregular, stems from deterministic nonlinear interactions rather than random inputs, maintaining intentionality. Thirdly, it exhibits sensitivity to initial conditions, leading to exponential divergence in trajectories situated close to each other. These defining traits of chaos have found extensive applications across various disciplines. However, despite their broad recognition, universally acknowledged theories elucidating these phenomena may still prove elusive.
+
+One of the interesting chaotic systems \cite{noauthor_lorenz_nodate} is the lorenz system, a system of three ordinary differential equations with the derivatives of $x_1$, $x_2$ and $x_3$ with respect to $t$ given by:
+\begin{align*}
+\dot{x}_1 &= \sigma(x_2 - x_1), \\
+\dot{x}_2 &= rx_1 - x_2 - x_1x_3, \\
+\dot{x}_3 &= x_1x_2 - bx_3,
+\end{align*}
+where $\sigma > 0$, $r > 0$ and $b > 0$ are parameters. If we set the Lorenz system's parameters set to $\sigma = 10$, $r = 28$ and $b = \dfrac{8}{3}$, it exhibits chaotic behavior, as illustrated in Figure \ref{fig:LE}. This figure shows the aperiodic long-term behavior (where trajectories do not settle down to fixed points), its deterministic nature (the system has no random or noisy inputs or parameters), and its sensitive dependence on initial conditions (nearby trajectories exhibit different trajectory behaviors). the Lorenz systems have four simple properties. Firstly, their nonlinearity captures the intricate interactions among variables, making them inseparable. Secondly, they exhibit symmetry in time reversal and energy alteration, guaranteeing consistent outcomes despite changes in parameters. Thirdly, they illustrate volume contraction, indicating a continual decrease in system energy and suggesting a tendency for energy or fluid volume to diminish over time Lastly, Lorenz equations have equilibrium point where variable values persist, ensuring long-term stability despite system fluctuations. The Lorentz equation has been extensively applied, particularly in understanding fluid dynamics, extending its reach beyond atmospheric convection \cite{bond_compact_2010, elhadj_models_2011}. Moreover, it holds promise in cryptography for enhancing the security of communication systems \cite{orue_lorenz_2006} and is indispensable for analyzing chaotic phenomena within engineering systems such as brushless DC motors \cite{qi_energy_2017}.
+
+\begin{figure}
+\centering
+\begin{subfigure}{0.45\textwidth}
+  \centering
+  \includegraphics[trim=2cm 2cm 2cm 2cm, clip, scale=0.3]{Lorenz1.pdf}
+  \caption{initial condition $(1,1,1)$.}
+  \label{subfig1:mp}
+\end{subfigure}\hfill
+\begin{subfigure}{0.45\textwidth}
+  \centering
+  \includegraphics[trim=2cm 2cm 2cm 2cm, clip, scale=0.3]{Lorenz2.pdf}
+  \caption{initial condition $(0.999,1,1)$.}
+  \label{subfig2:mp}
+\end{subfigure}
+\caption{Chaotic behavior of the Lorenz system with different initial conditions.}
+\label{fig:LE}
+\end{figure}   
+
+Diana S. Dabby \cite{dabby_musical_1996} pioneered the idea of generating musical variations through chaotic mappings, leveraging chaos theory to create unique renditions of a musical piece. This method capitalizes on the inherent sensitivity of chaotic systems to their initial conditions. In Dabby's work, a sequence of musical pitches, akin to the notes in a melody, is paired with the unpredictable jumps of a specific chaotic system, namely the Lorenz attractor. Imagine a number line where each position represents a note in the original piece. The chaotic system's jumps dictate where on this number line each note from the original sequence falls. By introducing a slightly different starting point for these jumps, a new sequence of notes is generated, resulting in a fascinating variation of the original melody.
+
 \iffalse
 Musical note duration refers to the length of time a musical note is held, which is a fundamental element in creating rhythm within a piece of music.  Traditionally, note durations are represented using fractions of a whole note. Common note values include the whole note (4 beats), half note (2 beats), quarter note (1 beat), eighth note (0.5 beats), and sixteenth note (0.25 beats)
 
@@ -91,89 +112,108 @@ Given a note duration denoted by $\phi$ and divided into $D$ equal parts, the du
 $$ R = \frac{\phi}{D}.  $$
 \textbf{Note:} In musical theory, equal parts refers to divisions that all have the same duration.
 
-In this paper, let $\mathbb{N}_n$ denote the sequence of natural number with $n$-elements defined by $\mathbb{N}_n = \{ 1, 2, \dots, n \}$ and $\mathbb{R}^n$ be a n-dimensional euclidean space and $\dot{x}(t)$ represents a system of ordinary differential equations. Here,  $\dot{x}$ represents the derivative of $x$ with respect to time.
+In this paper, let $\mathbb{N}_n$ denote the sequence of natural number with $n$-elements defined by $\mathbb{N}_n = \{ 1, 2, \dots, n \}$ and $\mathbb{R}^n$ be a n-dimensional euclidean space and $\dot{x}(t)$ represents a system of ordinary differential equations. Here,  $\dot{x}$ represents the derivative of $x$ with respect to time. Let $\phi_i:\mathbb{R}_+ \to \mathbb{R}$, we can define the domain of the $\phi_i$ by$ \dom{\phi_i} =  \{x | x \in \mathbb{R}_+ \} $
 \fi
 
 \section{Main Result}
 \label{sec: mainresult}
-In this section, we present two methods for generating musical variations. Which is the musical variations from a chaotic mapping method and melodic variation with expanded rhythm method. In the first example, we illustrate how a chaotic mapping can be used to generate variations in musical pitch. In the second example, we combine the musical variations from a chaotic mapping method with melodic variation with Expanded Rhythm Method to create more interesting musical variations.
+This section presents the musical variations generated from a chaotic mapping method and the melodic variation with expanded rhythm method. In the first method, we will demonstrate how the chaotic mapping can be used to create new variations in musical pitch. In the second method, we will combine the musical variations from the chaotic mapping method with the melodic variation with expanded rhythm method to create more interesting musical variations.
 
-\subsection{Musical Variations from a Chaotic Mapping}
-
+\subsection{Musical Variations from a Chaotic Mapping Method}
 \label{ss: mvfacm}
-For a musical sheet, let $m$ be a positive integer representing a number of notes, $\{p_k\}_{k=0}^{m-1}$ be a sequence of music pitches and   
+We introduce a modified version of the dabby method \cite{dabby_musical_1996} for generating musical variations.
+For a sheet music, let $m$ be a positive integer representing a number of notes, $\{p_k\}_{k=0}^{m-1}$ be a sequence of music pitches and   
 \begin{equation} \label{eq: odes}
 \dot{x}(t) = f(t,x)
 \end{equation}
-be a chaotic dynamical system with an initial condition $x(0) \in \mathbb{R}^n$, where $x(t) = \left(x_1(t), \ldots, x_n(t)\right)$ is differntiable for all $t \geq 0$.
-Let $f: \mathbb{R}_{+} \times \mathbb{R}^n \to \mathbb{R}^n$ is a continuous function. 
+be a chaotic dynamical system with an initial condition $x(0) \in \mathbb{R}^n$, where $x(t) = \left(x_1(t), \ldots, x_n(t)\right)$ is differntiable for all $t \geq 0$ and $f: \mathbb{R}_{+} \times \mathbb{R}^n \to \mathbb{R}^n$ is a continuous function. 
 Given a sequece
 $ \displaystyle\left\{\phi_i(kh) \right\}_{k=0}^{m-1}$ 
-for some $i \in \mathbb{N}_n$, where $\phi_i:\mathbb{R}_+ \to \mathbb{R}$ is a numerical solution in $i$-th component to \eqref{eq: odes} with a step size of $h$.
-Let $g$ be a mapping defined by 
-$g(\phi_i(kh)) := p_k$ for all $k \in \{0\}\cup\mathbb{N}_{m-1}$.
+for some $i \in \mathbb{N}_n$ and a step size of $h$, where $\phi_i:\mathbb{R}_+ \to \mathbb{R}$ is a numerical solution in $i$-th component to the system \eqref{eq: odes}. Let $g$ be a mapping defined by 
+\begin{equation} \label{eq: gmap}
+g(\phi_i(kh)) := p_k
+\end{equation}
+for all $k \in \{0\}\cup\mathbb{N}_{m-1}$.
 
-In order to generate a new variation of the sequence $ \left\{\tilde{\phi}_i(kh) \right\}_{k=0}^{m-1} $, where $\tilde{\phi}_i$ is a numerical solution with a new initial condition $\tilde{x}(0) \in \mathbb{R}^n$ $i$-th component to \eqref{eq: odes}, 
-when $\tilde{x}(0)$ located not far from $x(0)$, i.e., $ \left\lVert x(0) - \tilde{x}(0) \right\rVert \leq d$ for some small positve number $d \in \mathbb{R}$. Consequence, we define another mapping $l$ by: 
-\[ l\left(\tilde{\phi}_i(kh)\right) := 
+In order to generate a new variation of music, let $ \left\{\tilde{\phi}_i(kh) \right\}_{k=0}^{m-1} $ be a sequence of new trajectory with the initial condition $\tilde{x}(0) \in \mathbb{R}^n$, where $\tilde{\phi}_i$ is a numerical solution in $i$-th component to the system \eqref{eq: odes} and $\tilde{x}(0)$ located not far from the $x(0)$. i.e., $ \left\lVert x(0) - \tilde{x}(0) \right\rVert \leq d$ for some small positive number $d \in \mathbb{R}$. Consequently, we define another mapping $l$ by: 
+\begin{equation} \label{eq: lmap}
+l\left(\tilde{\phi}_i(kh)\right) := 
 \begin{cases}
-  g(\phi_i(b)) & \text{ if }\exists a, b \in \dom{\phi_i} \text{ s.t. } \phi_i(a) < \tilde{\phi}(kh) \leq \phi_i(b), \\
+  g(\phi_i(b)) & \text{ if }\exists a, b \in \dom{\phi_i} \text{ s.t. } \phi_i(a) < \tilde{\phi}_i(kh) \leq \phi_i(b) \\
   & \text{ and } \nexists c \in \dom{\phi_i} \text{ s.t. } \phi_i(a) < \phi_i(c) \leq \phi_i(b), \\
-  g(\phi_i(a)) & \text{ if } \tilde{\phi}(kh) < \phi_i(a) \text{ for all } a \in \dom{\phi_i}, \\
+  g(\phi_i(a)) & \text{ if } \tilde{\phi}_i(kh) < \phi_i(a) \text{ for all } a \in \dom{\phi_i}, \\
   g(\phi_i(b)) & \text{ otherwise},
 \end{cases}
-\]
-
-which produce a new sequence $\{ l(\tilde{v}_k) \}_{k = 0}^{m - 1}$. 
+\end{equation}
+resulting in the sequence $\left\{ l\left(\tilde{\phi}_i(kh)\right) \right\}_{k = 0}^{m - 1}$, which represents a new variation of the original musical pitch $\{p_k\}_{k=0}^{m-1}$. 
 
 \begin{example}
-Consider the musical sheet of 12 variations on Ah vous dirai-je Maman \cite{hinson_12_1987} in the first 3 bars, illustrated in Figure \ref{fig:Dabby1}. We can convert this musical sheet into a sequence $\{p_k\}_{k=0}^{10}$, where $p_k \in \{C4, C4, G4, G4, A4, A4, G4, F4, F4, E4, E4 \}$ denotes the musical pitch at index $k$. Let 
+Consider the sheet music of Ah vous dirai-je Maman \cite{hinson_12_1987} in the first 3 bars, illustrated in Figure \ref{fig:Dabby1}. We can convert this sheet music into a sequence $\{p_k\}_{k=0}^{10} = \{C4, C4, G4, G4, A4, A4, G4, F4, F4, E4, E4 \}$. Let 
 \begin{equation} \label{eq: re}
-\dot{x}(t) = f(t , x_n)
-\end{equation} be a Lorenz system with chaotic behavior by giving Lorenz parameters $r = 28, \sigma=10$ and $b = 2.6667$. Then, let the numerical solution of \eqref{eq: re} with initial condition $(1,1,1)$ and a step size of $h=0.01$ be a sequence $\{ \phi_1(kh) \}_{k=0}^{10}$, where $ \phi_1(kh) \in \{1.00, 1.29, 2.13, 3.74, 6.54, 11.04, 16.69, \\ 19.56, 15.37, 7.55, 1.20\}$ denotes the numerical solution at index $k$ and $\phi_1(kh)$ is a numerical solution in first component to \eqref{eq: re}. we can create a mapping $g$ from the real values to musical pitches as follows:
+\dot{x}(t) = \begin{bmatrix}
+ f_1(t, x) \\
+ f_2(t, x) \\
+ f_3(t, x) \\
+\end{bmatrix}
+= 
+\begin{bmatrix}
+  \sigma(x_2 - x_1) \\
+  rx_1 - x_2 - x_1x_3 \\
+  x_1x_2 - bx_3 \\
+\end{bmatrix}
+\end{equation} 
+be Lorenz system with parameters $r = 28, \sigma=10$ and $b = 2.6667$, where $x = (x_1, x_2, x_3)$. The first 11 numerical solution of \eqref{eq: re} with the initial condition $x(0) = (1,1,1)$ and step size of $h=0.01$ be a sequence $\{ \phi_1(kh) \}_{k=0}^{10} = \{1.00, 1.29, 2.13, 3.74, 6.54, 11.04, 16.69, 19.56, 15.37, 7.55, 1.20\}$, when $\phi_1(kh)$ is a numerical solution in first component to the system \eqref{eq: re}. We therefore define a mapping $g$ from $\{ \phi_1(kh) \}_{k=0}^{10}$ to $\{p_k\}_{k=0}^{10}$ according to the mapping \eqref{eq: gmap}, shown as follows:
+
 \begin{center}
-\begin{tabular}{|c||c|c|c|c|c|c|}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-$ \phi_1(kh) $ & $1.00$ & $1.29$ & $2.13$ & $3.74$ & $6.54$ & $11.04$ \\
+$k$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
 \hline
-$g(\phi_1(kh))$ & C4 & C4 & G4 & G4 & A4 & A4 \\
+$kh$ & 0 & 0.01 & 0.02 & 0.03 & 0.04 & 0.05 & 0.06 & 0.07 & 0.08 & 0.09 & 0.10 \\
 \hline
-$\phi_1(kh)$ & $16.69$ & $19.56$ & $15.37$ & $7.55$ & $1.20$ & \\
+$\phi_1(kh)$ & $1.00$ & $1.29$ & $2.13$ & $3.74$ & $6.54$ & $11.04$ & $16.69$ & $19.56$ & $15.37$ & $7.55$ & $1.20$ \\
 \hline
-$g(\phi_1(kh))$ & G4 & F4 & F4 & E4 & E4 &  \\
+$g(\phi_1(kh))$ & C4 & C4 & G4 & G4 & A4 & A4 & G4 & F4 & F4 & E4 & E4  \\
 \hline
 \end{tabular}
 \end{center}
-Consequence, we generate a new trajectory sequence $\left\{\tilde{\phi}_1(kh) \right\}_{k=0}^{10}$ with an initial condition of $(1.01,1,1)$ and a step size of $h=0.01$, where $\tilde{\phi}_1(kh) \in \{ 1.01, 1.30, 2.15, 3.76, 6.58, 11.10, 16.73, \\ 19.55, 15.30, 7.48, 1.15 \}$ denotes the numerical solution at index $k$ and $\tilde{\phi_1}(kh)$ is a numerical solution in first component to \eqref{eq: re}. We can create a mapping $l$ from the real values to new musical pitches as follows:
+
+In order to generate a new variation of music, the sequence 
+\[ \left\{\tilde{\phi}_1(kh) \right\}_{k=0}^{10} = \{ 1.01, 1.30, 2.15, 3.76, 6.58, 11.10, 16.73, 19.55, 15.30, 7.48, 1.15 \} \] 
+is the first 11 numerical solution of \eqref{eq: re} but from the initial condition $\tilde{x}(0) = (1.01,1,1)$, when $\tilde{\phi_1}(kh)$ is a numerical solution in first component to the system \eqref{eq: re}. We then define a mapping $l$ from $\left\{\tilde{\phi}_1(kh) \right\}_{k=0}^{10}$ to new musical pitches according to the mapping \eqref{eq: lmap}, shown as follows:
+
 \begin{center}
-\begin{tabular}{|c||c|c|c|c|c|c|}
+\begin{tabular}{|c||c|c|c|c|c|c|c|c|c|c|c|}
 \hline
-$\tilde{\phi}_1(kh)$ & $1.01$ & $1.30$ & $2.15$ & $3.76$ & $6.58$ & $11.10$ \\
+$k$ & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 \\
 \hline
-$l(\tilde{\phi}_1(kh))$ & E4 & G4 & G4 & A4 & E4 & F4 \\
+$kh$ & 0 & 0.01 & 0.02 & 0.03 & 0.04 & 0.05 & 0.06 & 0.07 & 0.08 & 0.09 & 0.10 \\
 \hline
-$\tilde{\phi}_1(kh)$ & $16.73$ & $19.55$ & $15.30$ & $7.48$ & $1.15$ & \\
+$\tilde{\phi}_1(kh)$ & $1.01$ & $1.30$ & $2.15$ & $3.76$ & $6.58$ & $11.10$ & $16.73$ & $19.55$ & $15.30$ & $7.48$ & $1.15$ \\
 \hline
-$l(\tilde{\phi}_1(kh))$ & F4 & F4 & F4 & E4 & E4 &  \\
+$l(\tilde{\phi}_1(kh))$ & E4 & G4 & G4 & A4 & E4 & F4 & F4 & F4 & F4 & E4 & E4  \\
 \hline
 \end{tabular}
 \end{center}
-which produce a new sequence $\{ l(\tilde{\phi}_1(kh)) \}_{k = 0}^{10}$, where $l(\tilde{\phi}_1(kh)) \in \{E4, G4, G4, A4, E4, F4, F4, \\ F4, F4, E4, E4 \}$. This sequence can be converted to sheet music in Figure \ref{fig:Dabby2}. Since this method uses the same note duration and musical notes to create a new variation (visualized in Figure \ref{fig:dabby method}), so the resulting changes in the sequence compared to the original sequence might seem relatively small.The new sequence of musical pitches changes the note in element 1 (C4 to E4), 2 (C4 to G4), 4 (G4 to A4), 5 (A4 to E4), 6 (A4 to F4), and 7 (G4 to F4).
+this mapping $l$ yields the sequence $ \{ l(\tilde{\phi}_1(kh)) \}_{k = 0}^{10} = \{E4, G4, G4, A4, E4, F4, F4, F4, F4, E4, E4 \}$, which can be converted to sheet music in Figure \ref{fig:Dabby2} (See Figure \ref{fig:dabby method} for the visualization of this method ). The new sequence of musical pitches changes the note in index $k = \{1, 2, 4, 5, 6, 7\}$.
 
 \end{example}
 
 \begin{figure}
 \centering
-\includegraphics[trim=1cm 26.5cm 10.055cm 0.02cm, clip, scale=1]{dabby_1.pdf} % trim={left bottom right top}
-\caption{The original of 12 variations on Ah vous dirai-je Maman in the first 3 bars.}
-\label{fig:Dabby1} 
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[trim=1cm 26.5cm 10.1cm 0.02cm, clip, scale=1]{dabby_2.pdf}
-\caption{The new variation of 12 variations on Ah vous dirai-je Maman in the first 3 bars, generated by the Initial Condition $(1.01, 1, 1)$.}
-\label{fig:Dabby2}
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[trim=1cm 26.5cm 10.055cm 0.02cm, clip, scale=1]{dabby_1.pdf} % trim={left bottom right top}
+  \caption{The original of Ah vous dirai-je Maman in the first 3 bars.}
+  \label{fig:Dabby1} 
+\end{subfigure}
+\begin{subfigure}{\textwidth}
+  \centering
+  \includegraphics[trim=1cm 26.5cm 10.1cm 0.02cm, clip, scale=1]{dabby_2.pdf}
+  \caption{The new variation of Ah vous dirai-je Maman in the first 3 bars, generated by the Initial Condition $(1.01, 1, 1)$.}
+  \label{fig:Dabby2}
+\end{subfigure}
+\caption{The original and new variation of Ah vous dirai-je Maman}
 \end{figure}
 
 \begin{figure}
@@ -195,7 +235,7 @@ which produce a new sequence $\{ l(\tilde{\phi}_1(kh)) \}_{k = 0}^{10}$, where $
     }
 
   \end{tikzpicture}
-  \caption{The first 11 pitches of the 12 variations on Ah vous dirai-je Maman are marked below the 1D axis.}
+  \caption{The first 11 pitches of the Ah vous dirai-je Maman are marked below the 1D axis.}
   \label{subfig:mp}
 \end{subfigure}
 
@@ -314,86 +354,74 @@ which produce a new sequence $\{ l(\tilde{\phi}_1(kh)) \}_{k = 0}^{10}$, where $
       % Draw number scale below the line
       \draw (\i,-0.1) node[below] {$\x$};
     }
-
   \end{tikzpicture}
   \caption{The new variation of the first 11 pitches are marked below the 1D axis.}
   \label{subfig:nmp}
 
 \end{subfigure}
 
-\caption{The visualizes how a chaotic mapping method can be used to generate musical variations}
+\caption{The figure for visualizes how a chaotic mapping method can be used to generate musical variations}
 \label{fig:dabby method}
 \end{figure}
 
 \subsection{Melodic Variation with Expanded Rhythm Method} 
 \label{subsec: melodicvariationwithexpandedrhythm}
-For a musical sheet, let $m$ be a positive integer representing a number of notes, $\{p_k\}_{k=0}^{m-1}$be a sequence of music pitches. 
-Let $q$ be a positive integer representing a number of expanded notes for each $p_k$, $\{p^\prime_k\}_{k=0}^{mq-1}$ be a sequence of expanded music pitches.
-
-\iffalse
-we define a mapping $e$ by $e(p_k) = \{p^\prime_k, p^\prime_{k + 1}, \dots, p^\prime_{k + q} \} $ for all $k \in \{0\}\cup\mathbb{N}_{m-1}$ 
-\fi
+Let $\{p_k\}_{k=0}^{m-1}$ be a sequence of music pitches, we can define a sequence of expanded music pitches $\{p^\prime_k\}_{k=0}^{mq-1}$, when $q$ be a positive integer representing a number of expanded notes for each $p_k$ and $p_k = p^\prime_{kq} = p^\prime_{kq + 1} = \dots = p^\prime_{q(k + 1) - 1}$.
 
 \begin{example}
 \label{ex: MV}
-Consider the music piece 12 variations on Ah vous dirai-je Maman in the first bars, illustrated in Figure \ref{fig:MV1}. 
-We can convert this musical sheet into a sequence $\{p_k\}_{k=0}^{3}$, where $p_k \in \{ C4, C4, G4, G4 \}$ denotes the musical pitch at index $k$.
-Given $q = 4$ be a number of expanded notes for each $p_k$ and $\{p^\prime_k\}_{k=0}^{15}$ be a sequence of expanded music pitches, where $p^\prime_k \in \{ C4, C4, C4, C4, C4, C4, C4, C4, G4, G4, G4, G4, G4, G4, G4, G4 \}$ denotes the musical pitch at index $k$, illustrated in Figure \ref{fig:MV2}.
-
+Let $ \{p_k\}_{k=0}^{3} = \{ C4, C4, G4, G4 \} $ be a sequence of music pitches from the music piece Ah vous dirai-je Maman in the first bars, illustrated in Figure \ref{fig:MV1}.
+Given $q = 4$ be the number of expanded notes for each $p_k$, we can define a sequence of expanded music pitches $\{p^\prime_k\}_{k=0}^{15} = \{ C4, C4, C4, C4, C4, C4, C4, C4, G4, G4, G4, G4, G4, G4, G4, G4 \}$, illustrated in Figure \ref{fig:MV2}.
 
 \iffalse
-We can create a mapping $e$ from music pitch to expanded music pitch as follows:
-\begin{center}
-\begin{tabular}{|c||c|c|c|c|}
-\hline
-$ p_k $ & C4 & C4 & G4 & G4 \\
-\hline
-$e(p_k)$ & $\{C4, C4, C4, C4\}$ & $\{C4, C4, C4, C4\}$ & $\{G4, G4, G4, G4\}$ & $\{G4, G4, G4, G4\}$ \\
-\hline
-$ p_k $ & A4 & A4 & G4 & \\
-\hline
-$g(p_k)$ & $\{ A4, A4, A4, A4\}$ & $\{ A4, A4, A4, A4\}$ & $\{G4, G4, G4, G4\}$ &   \\
-\hline
-\end{tabular}
-\end{center}
+Consider the music piece Ah vous dirai-je Maman in the first bars, illustrated in Figure \ref{fig:MV1}. 
+We can convert this sheet music into a sequence $ \{p_k\}_{k=0}^{3} = \{ C4, C4, G4, G4 \} $.
+Given $q = 4$ be a number of expanded notes for each $p_k$, we can define a sequence of expanded music pitches $\{p^\prime_k\}_{k=0}^{15} = \{ C4, C4, C4, C4, C4, C4, C4, C4, G4, G4, G4, G4, G4, G4, G4, G4 \}$, illustrated in Figure \ref{fig:MV2}.
 \fi
 
 \end{example}
 
 \begin{figure}
 \centering
+\begin{subfigure}{\textwidth}
+\centering
 \includegraphics[trim=1cm 26.5cm 14.325cm 0.02cm, clip, scale=1]{dabby_1.pdf} % trim={left bottom right top}
-\caption{The original of 12 variations on Ah vous dirai-je Maman in the first bars.}
+\caption{The original of Ah vous dirai-je Maman in the first bars.}
 \label{fig:MV1} 
-\end{figure}
-
-\begin{figure}
+\end{subfigure}
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[trim=1cm 26.5cm 8.615cm 0.5cm, clip, scale=0.6]{melody_variation.pdf}
 \caption{The melodic variation of Ah vous dirai-je, maman in the first bars.}
 \label{fig:MV2}
+\end{subfigure}
+\caption{The original and melodic variation of Ah vous dirai-je Maman.}
 \end{figure}
 
 \begin{example}
-Consider the musical sheet of 12 variations on Ah vous dirai-je Maman in the first 4 bars, illustrated in Figure \ref{fig:DabbyER1}. 
-We can convert this musical sheet into a sequence $\{p_k\}_{k=0}^{13}$, where $p_k \in \{C4, C4, G4, G4, A4, A4, G4, F4, F4, E4, E4, D4, D4, C4 \}$ denotes the musical pitch at index $k$. According to example \ref{ex: MV}, $\{p^\prime_k\}_{k=0}^{15}$ be a sequence of expanded music pitches, where $p^\prime_k \in \{ C4, C4, C4, C4, C4, C4, C4, C4, G4, G4, G4, G4, G4, G4, G4, G4 \}$. 
-We can apply the procedure of Musical Variations from a Chaotic Mapping to the sequence $\{p^\prime_k\}_{k=0}^{15}$ by using the initial condition $(0.5,0.5,0.5)$ and new trajectory initial condition $(0.6,0.5,0.5)$. Which produce a new sequence $\{l(\tilde{\phi}_1(kh))\}_{k = 0}^{15}$, where $l(\tilde{\phi}_1(kh)) \in \{C4, G4, D4, A4, A4, E4, F4, F4, F4, F4, E4, G4, D4, \\ C4, C4, C4 \} $. 
-This new sequence can be converted to musical notation, as shown in Figure \ref{fig:DabbyER2}.
-Since this method uses the new note duration to create a new variation (visualized in Figure \ref{fig2:dabbymv method}), the resulting changes in the sequence compared to the original sequence are different. The notes in the new sequence are more numerous compared to the original sequence which have only 4 notes.
+
+Consider the sequence $\{p_k\}_{k=0}^{13} = \{C4, C4, G4, G4, A4, A4, G4, F4, F4, E4, E4, D4, D4, C4 \}$ from the sheet music of Ah vous dirai-je Maman in the first 4 bars, illustrated in Figure \ref{fig:DabbyER1}. 
+We can apply the musical variations from a chaotic mapping method described in Section \ref{ss: mvfacm} to the sequence $\{p^\prime_k\}_{k=0}^{15}$ from example \ref{ex: MV} by using the initial condition $x(0) = (0.5,0.5,0.5)$ and new trajectory initial condition $\tilde{x}(0) = (0.6,0.5,0.5)$. 
+This results in a sequence of new pitches $\{l(\tilde{\phi}_1(kh))\}_{k = 0}^{15} = \{C4, G4, D4, A4, A4, E4, F4, F4, F4, F4, E4, G4, D4, C4, C4, C4 \} $ (See Figure \ref{fig2:dabbymv method} for the visualization of this method), which can be converted to musical notation in Figure \ref{fig:DabbyER2}. The new sequence of musical pitches is significantly different from the original sequence $\{p^\prime_k\}_{k=0}^{15}$.
+
 \end{example}
 
 \begin{figure}
 \centering
+\begin{subfigure}{\textwidth}
+\centering
 \includegraphics[trim=1cm 26.5cm 8.07cm 0.02cm, clip, scale=1]{dabby_1.pdf} % trim={left bottom right top}
-\caption{The original of 12 variations on Ah vous dirai-je Maman in the first 4 bars.}
+\caption{The original of Ah vous dirai-je Maman in the first 4 bars.}
 \label{fig:DabbyER1} 
-\end{figure}
+\end{subfigure}
 
-\begin{figure}
+\begin{subfigure}{\textwidth}
 \centering
 \includegraphics[trim=1cm 26.5cm 8.65cm 0.5cm, clip, scale=1]{dabby_melody_variation.pdf}
 \caption{The new variation with melodic variation of Ah vous dirai-je, maman in the first bars, generated by the Initial Condition $(0.6, 0.5, 0.5)$.} 
 \label{fig:DabbyER2}
+\end{subfigure}
+\caption{melodic variation method of Ah vous dirai-je Maman.}
 \end{figure}
 
 \begin{figure}
@@ -415,7 +443,7 @@ Since this method uses the new note duration to create a new variation (visualiz
     }
 
   \end{tikzpicture}
-  \caption{The first 14 pitches of the 12 variations on Ah vous dirai-je Maman are marked below the 1D axis.}
+  \caption{The first 14 pitches of the Ah vous dirai-je Maman are marked below the 1D axis.}
   \label{subfig2:mp}
 \end{subfigure}
 
@@ -544,13 +572,13 @@ Since this method uses the new note duration to create a new variation (visualiz
 
 \end{subfigure}
 
-\caption{The visualizes how a chaotic mapping with melodic variation method can be used to generate musical variations}
+\caption{The figure for visualizes how a chaotic mapping with melodic variation method can be used to generate musical variations}
 \label{fig2:dabbymv method}
 \end{figure}
 
 \section{Discussion}
 \label{sec: discussion}
-This section explores the potential of Combination of Musical Variations from a Chaotic Mapping and Melodic Variation with Expanded Rhythm technique for generating musical variations. It analyzes the impact of this approach on the resulting variations compared to traditional melodic variation techniques. 
+This section discusses the potential of combining musical variations from a chaotic mapping and melodic variation with expanded rhythm method for generating musical variations. We will also analyze the impact of this approach on the resulting variations in other sheet music. For convenience, we will refer to this combination of methods as the combined approach throughout this section. 
 
 \subsection{Strengths of the Combined Approach}
 
@@ -574,7 +602,7 @@ This method appears to be particularly effective for pieces with a larger range 
 
 \subsection{Weaknesses of the Combined Approach}
 
-Let's consider the musical sheet for Vanessa Carlton's A Thousand Miles (Figure \ref{fig:OATM}) and the new variation with melodic variation (Figure \ref{fig:NATM}). This result shows that using musical sheets with too many musical note durations can lead to new variations with melodies that are difficult to play and listen to. This is a major weakness of this method.
+Let's consider the sheet music Vanessa Carlton A Thousand Miles (Figure \ref{fig:OATM}) and the new variation with melodic variation (Figure \ref{fig:NATM}). This result shows that using sheet music with too many musical note durations can lead to new variations with melodies that are difficult to play and listen to. This is a major weakness of this method.
 
 \begin{figure}
 \centering

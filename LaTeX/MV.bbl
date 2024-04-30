@@ -55,15 +55,11 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{16}
       \field{isbn}{978-2-88966-602-7}
-      \field{langid}{english}
-      \field{month}{3}
       \field{pagetotal}{170}
       \field{title}{Music and {AI}}
       \field{year}{2021}
       \field{dateera}{ce}
-      \keyw{Science / General}
     \endentry
     \entry{mubert_website}{online}{}
       \name{author}{1}{}{%
@@ -72,9 +68,6 @@
            familyi={I\bibinitperiod},
            given={Mubert},
            giveni={M\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {en}%
       }
       \strng{namehash}{4aa243d60f27b156ced28670a2549d7c}
       \strng{fullhash}{4aa243d60f27b156ced28670a2549d7c}
@@ -88,10 +81,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Mubert - Human and AI music generator for your video content, podcasts and apps}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
       \field{year}{2024}
-      \verb{file}
-      \verb Snapshot:C\:\\Users\\Admin\\Zotero\\storage\\5Q7M5SI5\\mubert.com.html:text/html
-      \endverb
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://mubert.com/
       \endverb
@@ -107,9 +101,6 @@
            given={Musicfy},
            giveni={M\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{890705113095e0ba40dc0ae04c0885dd}
       \strng{fullhash}{890705113095e0ba40dc0ae04c0885dd}
       \strng{bibnamehash}{890705113095e0ba40dc0ae04c0885dd}
@@ -122,10 +113,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Musicfy - Change Your Voice with AI}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
       \field{year}{2023}
-      \verb{file}
-      \verb Snapshot:C\:\\Users\\Admin\\Zotero\\storage\\JZJSBG4C\\musicfy.lol.html:text/html
-      \endverb
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://musicfy.lol/
       \endverb
@@ -141,9 +133,6 @@
            given={SOUNDRAW},
            giveni={S\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{5352f47711758693b8e158fa5553275e}
       \strng{fullhash}{5352f47711758693b8e158fa5553275e}
       \strng{bibnamehash}{5352f47711758693b8e158fa5553275e}
@@ -156,10 +145,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{SOUNDRAWTHE MUSIC TOOL FOR CREATORS AND ARTISTS}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
       \field{year}{2020}
-      \verb{file}
-      \verb Snapshot:C\:\\Users\\Admin\\Zotero\\storage\\PTUHJWJR\\soundraw.io.html:text/html
-      \endverb
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://soundraw.io
       \endverb
@@ -186,10 +176,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Boomy - Unleash your creativity. Make music with Boomy AI.}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
       \field{year}{2023}
-      \verb{file}
-      \verb Boomy - Make Generative Music with Artificial Intelligence:C\:\\Users\\Admin\\Zotero\\storage\\9FEPXN9H\\boomy.com.html:text/html
-      \endverb
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://boomy.com/
       \endverb
@@ -205,9 +196,6 @@
            given={Aiva\bibnamedelima Technologies},
            giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
-      \list{language}{1}{%
-        {en}%
-      }
       \strng{namehash}{fc046ffd7ba3231cb95959713f811658}
       \strng{fullhash}{fc046ffd7ba3231cb95959713f811658}
       \strng{bibnamehash}{fc046ffd7ba3231cb95959713f811658}
@@ -219,10 +207,11 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{AIVA Your personal AI music generation assistant}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
       \field{year}{2024}
-      \verb{file}
-      \verb Snapshot:C\:\\Users\\Admin\\Zotero\\storage\\F6LRC2XD\\www.aiva.ai.html:text/html
-      \endverb
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.aiva.ai/
       \endverb
@@ -248,10 +237,8 @@
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{day}{1}
       \field{issn}{1054-1500}
       \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
-      \field{month}{6}
       \field{number}{2}
       \field{shortjournal}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
       \field{title}{Musical variations from a chaotic mapping}
@@ -278,8 +265,8 @@
       \strng{authorbibnamehash}{0e916cd1c74b7bb39132c80e9d5b6b81}
       \strng{authornamehash}{0e916cd1c74b7bb39132c80e9d5b6b81}
       \strng{authorfullhash}{0e916cd1c74b7bb39132c80e9d5b6b81}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{10}
@@ -292,8 +279,8 @@
       \endverb
     \endentry
     \entry{noauthor_weather_nodate}{misc}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{Weather {Pattern} - an overview {|} {ScienceDirect} {Topics}}
       \field{urlday}{28}
@@ -454,8 +441,8 @@
       \strng{authorbibnamehash}{ebe1ae4b2f22501efe61b54db045283c}
       \strng{authornamehash}{ebe1ae4b2f22501efe61b54db045283c}
       \strng{authorfullhash}{ebe1ae4b2f22501efe61b54db045283c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1007-5704}
@@ -521,8 +508,8 @@
       \strng{authorbibnamehash}{92a1cb43c970acdadd4f75b01bb7e9dc}
       \strng{authornamehash}{92a1cb43c970acdadd4f75b01bb7e9dc}
       \strng{authorfullhash}{b00a7e62ae29e383fe0b7eb6b2c4145a}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper presents the results of investigating the dynamics of an economic system with chaotic behavior and a suboptimal control proposal to suppress the chaotic behavior. Numerical results using phase portraits, bifurcation diagrams, Lyapunov exponents, and 0-1 testing confirmed chaotic and hyperchaotic behavior. The results also proved the effectiveness of the control, showing errors below 1\%, even in cases where the control design is subject to parametric errors. Additionally, an investigation of the system in fractional order is included, demonstrating that the system has periodic, constant, or chaotic behavior for specific values of the order of the derivative.}
@@ -598,8 +585,8 @@
       \strng{authorbibnamehash}{4e34e8dad4ae7b1440f45f498cd15dd7}
       \strng{authornamehash}{4e34e8dad4ae7b1440f45f498cd15dd7}
       \strng{authorfullhash}{4164e3813f19fcb1b657a1b4f78361c9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{This paper tries to investigate the complex characteristics of the communication market where Internet service providers (ISP) lease network access services and compete to serve a large pool of subscribers. For this purpose, we analyze the dynamics of a mixed duopoly game with two decision parameters: price and quality of service (QoS). We calculate and discuss the stability of each equilibrium solution by using the nonlinear system. A numerical simulation is used to show the flip bifurcation to chaos by the decisions of ISPs with different statuses. We discovered that the Nash equilibrium loses stability when the speed of adjustment and transmission fee increase. We show that the system parameter changes the stability of the communication market. In addition, we use a control method to keep the communication market in a stable state.}
@@ -655,8 +642,8 @@
       \strng{authorbibnamehash}{58a2fda3924667f60639cf0013aeaf45}
       \strng{authornamehash}{58a2fda3924667f60639cf0013aeaf45}
       \strng{authorfullhash}{9d5b431bfc9607686039ff17b8949c5d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0094-243X}
@@ -696,8 +683,8 @@
       \strng{authorbibnamehash}{89b23cce0bb40099f7b69f6577f665fe}
       \strng{authornamehash}{89b23cce0bb40099f7b69f6577f665fe}
       \strng{authorfullhash}{89b23cce0bb40099f7b69f6577f665fe}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2211-3797}
@@ -752,8 +739,8 @@
       \strng{authorbibnamehash}{1e3082e2be7a2ae1bf133b8692ea661d}
       \strng{authornamehash}{1e3082e2be7a2ae1bf133b8692ea661d}
       \strng{authorfullhash}{ef40fdee9023ff6ba1de26376a3c6fb7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1007-5704}
@@ -1059,7 +1046,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Lorenz {Equation} - an overview {|} {ScienceDirect} {Topics}}
-      \field{urlday}{28}
+      \field{urlday}{24}
       \field{urlmonth}{4}
       \field{urlyear}{2024}
       \field{urldateera}{ce}
@@ -1071,8 +1058,8 @@
       \endverb
     \endentry
     \entry{bond_compact_2010}{article}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labeltitlesource}{title}
       \field{month}{9}
       \field{title}{Compact {Modeling} of {Nonlinear} {Analog} {Circuits} {Using} {System} {Identification} via {Semidefinite} {Programming} and {Incremental} {Stability} {Certification}}
@@ -1098,8 +1085,8 @@
       \strng{authorbibnamehash}{cf8b67c9dbdeb99391c77956cb72cc46}
       \strng{authornamehash}{cf8b67c9dbdeb99391c77956cb72cc46}
       \strng{authorfullhash}{cf8b67c9dbdeb99391c77956cb72cc46}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-57808-722-8}
@@ -1150,8 +1137,8 @@
       \strng{authorbibnamehash}{1ad9899b0620da76ace8b69914e57761}
       \strng{authornamehash}{1ad9899b0620da76ace8b69914e57761}
       \strng{authorfullhash}{3bac04f87e936f1c94264fa1b7da41e7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -1172,8 +1159,8 @@
       \strng{authorbibnamehash}{53c0299e6ed0174f28aa81ebc29ed23c}
       \strng{authornamehash}{53c0299e6ed0174f28aa81ebc29ed23c}
       \strng{authorfullhash}{53c0299e6ed0174f28aa81ebc29ed23c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Applied Mathematical Modelling}
@@ -1184,65 +1171,6 @@
       \verb{doi}
       \verb 10.1016/j.apm.2017.07.025
       \endverb
-    \endentry
-    \entry{bose_numerical_2019}{book}{}
-      \name{author}{1}{}{%
-        {{hash=f72ef6b0204867d9f61f140feff714f8}{%
-           family={Bose},
-           familyi={B\bibinitperiod},
-           given={Sujit\bibnamedelima Kumar},
-           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{f72ef6b0204867d9f61f140feff714f8}
-      \strng{fullhash}{f72ef6b0204867d9f61f140feff714f8}
-      \strng{bibnamehash}{f72ef6b0204867d9f61f140feff714f8}
-      \strng{authorbibnamehash}{f72ef6b0204867d9f61f140feff714f8}
-      \strng{authornamehash}{f72ef6b0204867d9f61f140feff714f8}
-      \strng{authorfullhash}{f72ef6b0204867d9f61f140feff714f8}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{13}
-      \field{isbn}{9789811371141}
-      \field{langid}{english}
-      \field{month}{5}
-      \field{pagetotal}{479}
-      \field{title}{Numerical Methods of Mathematics Implemented in Fortran}
-      \field{year}{2019}
-      \field{dateera}{ce}
-    \endentry
-    \entry{carter_music_2016}{book}{}
-      \name{author}{1}{}{%
-        {{hash=7905f364d1824e024130b79b5722e849}{%
-           family={Carter},
-           familyi={C\bibinitperiod},
-           given={Nicolas},
-           giveni={N\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {4th edition}%
-      }
-      \strng{namehash}{7905f364d1824e024130b79b5722e849}
-      \strng{fullhash}{7905f364d1824e024130b79b5722e849}
-      \strng{bibnamehash}{7905f364d1824e024130b79b5722e849}
-      \strng{authorbibnamehash}{7905f364d1824e024130b79b5722e849}
-      \strng{authornamehash}{7905f364d1824e024130b79b5722e849}
-      \strng{authorfullhash}{7905f364d1824e024130b79b5722e849}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{day}{11}
-      \field{month}{8}
-      \field{pagetotal}{244}
-      \field{shorttitle}{Music Theory}
-      \field{title}{Music Theory: From Beginner to Expert - The Ultimate Step-By-Step Guide to Understanding and Learning Music Theory Effortlessly}
-      \field{year}{2016}
-      \field{dateera}{ce}
     \endentry
     \entry{hinson_12_1987}{book}{}
       \name{author}{1}{}{%
@@ -1266,8 +1194,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-0-7390-2032-6}
-      \field{langid}{english}
-      \field{month}{11}
       \field{pagetotal}{16}
       \field{title}{12 Variations on Ah, Vous Dirai-Je, Maman, K. 265}
       \field{year}{1987}
@@ -1298,18 +1224,26 @@
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{day}{3}
+      \field{labeltitlesource}{title}
       \field{isbn}{978-0-7390-7134-2}
-      \field{langid}{english}
-      \field{month}{5}
       \field{pagetotal}{8}
-      \field{shorttitle}{Canon in D}
       \field{title}{Canon in D: Variations on the Theme for Piano}
       \field{year}{2005}
       \field{dateera}{ce}
     \endentry
   \enddatalist
+  \missing{akgul2019chaotic}
+  \missing{field2009symmetry}
+  \missing{pehlivan2019multiscroll}
+  \missing{rajagopal2019dynamical}
+  \missing{rajagopal2019multiscroll}
+  \missing{rajagopal2019simple}
+  \missing{ren2018new}
+  \missing{varan2018control}
+  \missing{wang2012chaotic}
+  \missing{wang2017chaotic}
+  \missing{wang2019sbox}
+  \missing{wei2018synchronisation}
 \endrefsection
 \endinput
 
