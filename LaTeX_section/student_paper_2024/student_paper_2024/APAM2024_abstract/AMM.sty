@@ -1,0 +1,210 @@
+%%% Font and page settings
+\RequirePackage{fontspec}
+\RequirePackage{xunicode}
+\RequirePackage{xltxtra}
+    
+\defaultfontfeatures{Mapping=tex-text} 
+\setmainfont{Times New Roman} % Times New Roman
+\newfontfamily\thaifont
+[Scale = MatchUppercase,
+Path = ./Fonts/,
+Extension = .TTF,
+UprightFont = *,
+BoldFont = *_BOLD,
+ItalicFont = *_ITALIC,
+BoldItalicFont = *_BOLDITALIC
+]{THSARABUNNEW}
+\RequirePackage[Latin,Thai]{ucharclasses}
+% Set environment for Thai fonts
+\newenvironment{thailang}
+{\thaifont}
+{}
+\setTransitionTo{Thai}{\begin{thailang}}
+\setTransitionFrom{Thai}{\end{thailang}}
+\usepackage{setspace}
+\onehalfspacing
+
+
+% Set the locale for linebreak to Thai
+\XeTeXlinebreaklocale "th"
+% In English, when TeX tries to justify text,
+% it will add some spaces between words
+% For Thai, we "must not" add any space between words
+% i.e. put "zero" space beteween words
+\XeTeXlinebreakskip = 0pt plus 0pt
+% For a bit better(?) justified output
+\sloppy
+
+\RequirePackage{polyglossia}          
+\setdefaultlanguage{english}
+\setotherlanguage{thai}
+
+\usepackage{setspace}
+\onehalfspacing
+\linespread{1.4}
+
+\def\keywordname{Keywords}
+\def\acknowledgementname{Acknowledgements}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{lastpage}                  % for page numbering
+\RequirePackage{changepage}                % for temporary margin settings
+\RequirePackage{url}                       % for url breaking in citation
+\RequirePackage[abbrev]{amsrefs}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PAGE LAYOUT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage[left=2.6cm,right=2.6cm,top=1in,bottom=1in]{geometry}
+\RequirePackage{fancyhdr}
+\hoffset=-0.5in
+\voffset=-0.5in
+\setlength\oddsidemargin{0.5in} 
+\setlength\evensidemargin{0.5in}
+
+\setlength\topmargin{0in}
+\setlength\headheight{0in}
+\setlength\headsep{0.5in}
+%\setlength\textheight{9in}
+%\setlength\textwidth{6.75in}
+%\setlength\marginparsep{0pt}
+\setlength\marginparwidth{0.5in}
+\setlength\footskip{0.25in}
+
+\RequirePackage{titlesec}                  % for section formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1ex}{}
+\titlespacing{\section}{0pt}{6pt}{0pt}
+\setlength{\parindent}{1cm}
+\setlength{\parskip}{\medskipamount}
+
+\pagestyle{empty}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\subject#1{\def\@subject{#1}}
+\def\keywords#1{\def\@keywords{#1}}
+
+\usepackage[blocks]{authblk}
+
+%% For author line in header
+\def\papertitle#1{\def\@papertitle{#1}}
+\newcommand{\titlestr}{\@papertitle}
+\def\@title{\@papertitle}
+
+\setlength{\affilsep}{12pt}
+\renewcommand\Authands{ and }
+\@namedef{@mailsep1}{}
+\@namedef{@mailsep2}{\Authand}
+\newcounter{emails}
+\newcommand\AB@emaillist{}
+\newcommand\emailfont{\ttfamily}
+\newcommand\email[2][]
+{
+    \newaffiltrue\let\AB@blk@and\AB@pand
+    \if\relax#1\relax\def\AB@note{\AB@thenote}\else\def\AB@note{#1}%
+      \setcounter{Maxaffil}{0}
+    \fi
+    \ifnum\value{emails}>1\relax
+      \@namedef{@mailsep\number\c@emails}{\Authsep}\fi
+      \addtocounter{emails}{1}%
+    \begingroup
+      \let\protect\@unexpandable@protect
+      \def\thanks{\protect\\thanks}\def\footnote{\protect\footnote}%
+      \@temptokena=\expandafter{\AB@authors}%
+      {\def\\{\protect\\\protect\emailfont}\xdef\AB@temp{#2}}%
+       \xdef\AB@authors{\the\@temptokena\AB@las\AB@au@str
+       \protect\emailfont\AB@temp}%
+       \gdef\AB@las{}\gdef\AB@au@str{}%
+      {\def\\{, \ignorespaces}\xdef\AB@temp{#2}}%
+      \@temptokena=\expandafter{\AB@emaillist}%
+      \xdef\AB@emaillist{\the\@temptokena %\AB@affilsep
+      \protect\@nameuse{@mailsep\number\c@emails}%
+      \AB@affilnote{\AB@note}\protect\emailfont\AB@temp}%
+    \endgroup
+    \ifnum\value{emails}>2\relax
+      \@namedef{@mailsep\number\c@emails}{\Authsep}\fi
+    \newaffilfalse
+}
+
+\renewcommand\@author{
+    \ifx\AB@affillist
+      \AB@empty\AB@author
+    \else
+      \ifnum\value{affil}>\value{Maxaffil}
+        \def\rlap##1{##1}%
+        \AB@authlist\\
+        [\affilsep]\AB@affillist\\
+        [\affilsep]\AB@emaillist
+      \else
+        \AB@authors
+      \fi
+    \fi
+}
+
+\def\speaker#1{\def\@speaker{#1}}
+
+\def\maketitle{
+    \begingroup
+    \def\thefootnote{\fnsymbol{footnote}}
+    \def\@makefnmark{\hbox to 5pt{$^{\@thefnmark}$\hss}}
+    \let \footnote \thanks
+    \@maketitle \@thanks
+    \endgroup
+    \setcounter{footnote}{0}
+    \let\maketitle\relax \let\@maketitle \relax
+    \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\let\thanks\relax
+}
+\def\@maketitle{
+    \begin{center}
+    \Large\bf \@title
+    \end{center}
+    \begin{center}
+    \begin{tabular}{p{.8\columnwidth}}
+    \centering \@author
+    \end{tabular}
+    \end{center}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ABSTRACT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewenvironment{abstract}
+{\small
+  \begin{center}
+  {\large \bfseries \abstractname}
+  \end{center}
+%  \quotation
+\begin{adjustwidth*}{2.5cm}{2.5cm}
+\hspace{\parindent}
+}
+{%\endquotation
+\end{adjustwidth*}
+\medskip
+\noindent{{\large \bfseries Mathematics Subject 
+Classification:} \@subject}
+\newline\noindent{{\large \bfseries \keywordname:} \@keywords}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% ACKNOWLEDGEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newenvironment{acknowledgements}
+{
+\vspace{\parskip}
+{\noindent{\large \bf \acknowledgementname}\hspace{1ex}}
+}
+{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
