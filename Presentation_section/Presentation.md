@@ -36,7 +36,7 @@ style: |
 
 ### Nowaday Music AI 
 artificial intelligence (AI) technologies have significantly advanced, enabling them to create music with ever-increasing proficiency. 
-Well-known AI music generation platforms such as Mubert, Soundraw and AIVA
+Well-known AI music generation platforms such as Mubert, Soundraw and AIVA.
 
 
 | <h5>Pros</h5>    | <h5>Cons</h5> |

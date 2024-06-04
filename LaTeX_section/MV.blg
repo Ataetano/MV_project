@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'MV.blg'
+[157] biber-MSWIN64:340> INFO - === 
+[205] Biber.pm:419> INFO - Reading 'MV.bcf'
+[353] Biber.pm:979> INFO - Found 40 citekeys in bib section 0
+[370] Biber.pm:4419> INFO - Processing section 0
+[384] Biber.pm:4610> INFO - Looking for bibtex file 'MV.bib' for section 0
+[459] bibtex.pm:1713> INFO - LaTeX decoding ...
+[533] bibtex.pm:1519> INFO - Found BibTeX data source 'MV.bib'
+[891] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[891] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[891] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[891] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[957] bbl.pm:660> INFO - Writing 'MV.bbl' with encoding 'UTF-8'
+[984] bbl.pm:763> INFO - Output to MV.bbl
