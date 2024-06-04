@@ -143,7 +143,7 @@ This technique extends the rhythmic duration of musical notes, thereby opening u
 <br>
 
 <center>
-Pachelbel Canon in D
+Pachelbel - Canon in D
 </center>
 
 <div class="container">
