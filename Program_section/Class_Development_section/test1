@@ -1,0 +1,479 @@
+\version "2.25" 
+color = #(define-music-function (parser location color) (string?) #{
+        \once \override NoteHead #'color = #(x11-color color)
+        \once \override Stem #'color = #(x11-color color)
+        \once \override Rest #'color = #(x11-color color)
+        \once \override Beam #'color = #(x11-color color)
+     #})
+    
+\header { 
+ title = "test1"   
+  
+  } 
+ 
+\score  { 
+ 
+      << \new Staff  = ycdfyzdxdafaa { \clef "treble" 
+             \key c \major 
+             \time 4/4
+             d' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             d' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             \bar "|"  %{ end measure 1 %} 
+             b' 16  
+             c'' 16  
+             d'' 16  
+             e'' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             e'' 16  
+             a' 8  
+             b' 8  
+             c'' 8  
+             d'' 8  
+             \bar "|"  %{ end measure 2 %} 
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             \bar "|"  %{ end measure 3 %} 
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             d' 8  
+             e' 8  
+             f' 8  
+             g' 8  
+             \bar "|"  %{ end measure 4 %} 
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             \bar "|"  %{ end measure 5 %} 
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             e' 8  
+             f' 8  
+             g' 8  
+             a' 8  
+             \bar "|"  %{ end measure 6 %} 
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             \bar "|"  %{ end measure 7 %} 
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             e' 8  
+             f' 8  
+             g' 8  
+             a' 8  
+             \bar "|"  %{ end measure 8 %} 
+             d' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             d' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             \bar "|"  %{ end measure 9 %} 
+             b' 16  
+             c'' 16  
+             d'' 16  
+             e'' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             e'' 16  
+             a' 8  
+             b' 8  
+             c'' 8  
+             d'' 8  
+             \bar "|"  %{ end measure 10 %} 
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             \bar "|"  %{ end measure 11 %} 
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             d' 8  
+             e' 8  
+             f' 8  
+             g' 8  
+             \bar "|"  %{ end measure 12 %} 
+             d' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             d' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             \bar "|"  %{ end measure 13 %} 
+             b' 16  
+             c'' 16  
+             d'' 16  
+             e'' 16  
+             b' 16  
+             c'' 16  
+             d'' 16  
+             e'' 16  
+             a' 8  
+             b' 8  
+             c'' 8  
+             d'' 8  
+             \bar "|"  %{ end measure 14 %} 
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             c'' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             b' 16  
+             \bar "|"  %{ end measure 15 %} 
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             e' 16  
+             f' 16  
+             g' 16  
+             a' 16  
+             d' 8  
+             e' 8  
+             f' 8  
+             g' 8  
+             \bar "|."  %{ end measure 16 %} 
+              } 
+            
+ 
+       \new Staff  = ycdfydybzbzye { \clef "bass" 
+             \key c \major 
+             \time 4/4
+             < d  f  a  > 4   
+             < e  g  b  > 4   
+             < f  a  c'  > 4   
+             < g  b  d'  > 4   
+             \bar "|"  %{ end measure 1 %} 
+             < d  g  b  > 8   
+             < e  a  c'  > 8   
+             < f  b  d'  > 8   
+             < g  c'  e'  > 8   
+             < d  f  a  > 8   
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             \bar "|"  %{ end measure 2 %} 
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             < a  c'  e'  > 8   
+             < d  f  a  > 8   
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             \bar "|"  %{ end measure 3 %} 
+             < g  a  c'  > 8   
+             < a  b  d'  > 8   
+             < b  c'  e'  > 8   
+             < c'  d'  g'  > 8   
+             < d  f  a  > 8   
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             \bar "|"  %{ end measure 4 %} 
+             < a  d'  > 8   
+             < b  e'  > 8   
+             < c'  f'  > 8   
+             < d'  g'  > 8   
+             < a  c'  > 8   
+             < b  d'  > 8   
+             < c'  e'  > 8   
+             < d'  g'  > 8   
+             \bar "|"  %{ end measure 5 %} 
+             < a  d'  > 8   
+             < b  e'  > 8   
+             < c'  f'  > 8   
+             < d'  g'  > 8   
+             < a  c'  > 8   
+             < b  d'  > 8   
+             < c'  e'  > 8   
+             < d'  g'  > 8   
+             \bar "|"  %{ end measure 6 %} 
+             < a  d'  > 8   
+             < b  e'  > 8   
+             < c'  f'  > 8   
+             < d'  g'  > 8   
+             < a  c'  > 8   
+             < b  d'  > 8   
+             < c'  e'  > 8   
+             < d'  g'  > 8   
+             \bar "|"  %{ end measure 7 %} 
+             < a  d'  > 8   
+             < b  e'  > 8   
+             < c'  f'  > 8   
+             < d'  g'  > 8   
+             < a  c'  > 8   
+             < b  d'  > 8   
+             < c'  e'  > 8   
+             < d'  g'  > 8   
+             \bar "|"  %{ end measure 8 %} 
+             < d  f  a  > 4   
+             < e  g  b  > 4   
+             < f  a  c'  > 4   
+             < g  b  d'  > 4   
+             \bar "|"  %{ end measure 9 %} 
+             < d  g  b  > 8   
+             < e  a  c'  > 8   
+             < f  b  d'  > 8   
+             < g  c'  e'  > 8   
+             < d  f  a  > 8   
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             \bar "|"  %{ end measure 10 %} 
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             < a  c'  e'  > 8   
+             < d  f  a  > 8   
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             \bar "|"  %{ end measure 11 %} 
+             < g  a  c'  > 8   
+             < a  b  d'  > 8   
+             < b  c'  e'  > 8   
+             < c'  d'  g'  > 8   
+             < d  f  a  > 8   
+             < e  g  b  > 8   
+             < f  a  c'  > 8   
+             < g  b  d'  > 8   
+             \bar "|"  %{ end measure 12 %} 
+             d 32  
+             e 32  
+             f 32  
+             g 32  
+             f 32  
+             g 32  
+             a 32  
+             b 32  
+             a 16  
+             b 16  
+             c' 16  
+             d' 16  
+             d 32  
+             e 32  
+             f 32  
+             g 32  
+             f 32  
+             g 32  
+             a 32  
+             b 32  
+             a 16  
+             b 16  
+             c' 16  
+             d' 16  
+             \bar "|"  %{ end measure 13 %} 
+             d 32  
+             e 32  
+             f 32  
+             g 32  
+             g 32  
+             a 32  
+             b 32  
+             c' 32  
+             b 16  
+             c' 16  
+             d' 16  
+             e' 16  
+             d 32  
+             e 32  
+             f 32  
+             g 32  
+             f 32  
+             g 32  
+             a 32  
+             b 32  
+             a 16  
+             b 16  
+             c' 16  
+             d' 16  
+             \bar "|"  %{ end measure 14 %} 
+             e 32  
+             f 32  
+             g 32  
+             a 32  
+             g 32  
+             a 32  
+             b 32  
+             c' 32  
+             b 16  
+             c' 16  
+             d' 16  
+             e' 16  
+             d 32  
+             e 32  
+             f 32  
+             g 32  
+             f 32  
+             g 32  
+             a 32  
+             b 32  
+             a 16  
+             b 16  
+             c' 16  
+             d' 16  
+             \bar "|"  %{ end measure 15 %} 
+             g 32  
+             a 32  
+             b 32  
+             c' 32  
+             a 32  
+             b 32  
+             c' 32  
+             d' 32  
+             c' 16  
+             d' 16  
+             e' 16  
+             g' 16  
+             d 32  
+             e 32  
+             f 32  
+             g 32  
+             f 32  
+             g 32  
+             a 32  
+             b 32  
+             a 16  
+             b 16  
+             c' 16  
+             d' 16  
+             \bar "|."  %{ end measure 16 %} 
+              } 
+            
+ 
+        >>
+      
+  } 
+ 
+\paper { }
+\layout {
+  \context {
+    \RemoveEmptyStaffContext
+    \override VerticalAxisGroup #'remove-first = ##t
+  }
+ }
+ 
