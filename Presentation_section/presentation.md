@@ -239,7 +239,7 @@ This technique extends the rhythmic duration of musical notes, thereby opening u
   <img data-marpit-fragment="1" src="img/erp_2.png" width="50%" />
   <br>
   <br>
-  <img data-marpit-fragment="2" src="img/erp_3.png" width="50%" />
+  <img data-marpit-fragment="2" src="img/erp_3fix.png" width="50%" />
   </section>
 </center>
 
@@ -250,7 +250,7 @@ This technique extends the rhythmic duration of musical notes, thereby opening u
 <br>
 <center>
   <section data-marpit-fragments="2">
-  <img src="img/erp_3.png" width="50%" />
+  <img src="img/erp_3fix.png" width="50%" />
   <br>
   <br>
   <img data-marpit-fragment="2" src="img/erp_4.png" width="100%" />
