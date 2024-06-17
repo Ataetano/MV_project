@@ -16,18 +16,22 @@
 \centering
 \begin{tikzpicture}
   % Draw number line
-  \draw[-, thick] (0,0) -- (16.5,0) node[below] {$l(\tilde{\phi}_1(kh))$}  node[above] {$k$};
+  \draw[-, thick] (0,0) -- (5.5,0) node[below] {$\phi_1(kh)$}  node[above] {$g(\phi_1(kh))$} node[above=0.5cm] {$k$};
 
   % Data
-  \foreach \i/\x/\p in {1/C4/0, 2/G4/1, 3/G4/2, 4/G4/3, 5/G4/4, 6/G4/5, 7/G4/6, 8/G4/7, 9/G4/8, 10/G4/9, 11/G4/10, 12/G4/11, 13/C4/12, 14/C4/13, 15/C4/14, 16/C4/15} {
+  \foreach \i/\x/\p in {1/0.5/C4, 2/0.65/C4, 3/1.08/G4, 4/1.91/G4} {
     % Draw points and labels
-    \filldraw (\i*0.95,0) circle (2pt) node[above] {$\p$};
+    \filldraw (\i,0) circle (2pt) node[above] {$\p$};
     
     % Draw number scale below the line
-    \draw (\i*0.95,-0.1) node[below] {$\x$};
+    \draw (\i,-0.1) node[below] {$\x$};
   }
-
-\end{tikzpicture}
+  
+  % Display the sequence at each point
+  \foreach \i/\x in {1/0, 2/1, 3/2, 4/3} {
+    \draw (\i,0.5) node[above] {\x};
+  }
+  \end{tikzpicture}
 \end{figure}
 
 

@@ -169,22 +169,6 @@ style: |
 ---
 
 ### Musical Variations from a Chaotic Mapping Method
-
-The Lorenz system, a dynamical system with parameters $\sigma > 0$, $r > 0$ and $b > 0$ given by:
-
-$$
-\begin{aligned}
-\dot{x}_1 &= \sigma(x_2 - x_1) \\
-\dot{x}_2 &= rx_1 - x_2 - x_1x_3 \\
-\dot{x}_3 &= x_1x_2 - bx_3
-\end{aligned}
-$$
-
-if parameters set to $\sigma = 10$, $r = 28$ and $b = \dfrac{8}{3}$, it exhibits chaotic behavior.
-
----
-
-### Musical Variations from a Chaotic Mapping Method
 <br>
 <br>
 
