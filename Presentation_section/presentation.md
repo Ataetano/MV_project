@@ -69,11 +69,11 @@ style: |
   <tbody>
     <tr>
       <td style="padding: 10px; text-align: left; border-bottom: 0px; background-color: transparent;"><h6>user friendly</h6></td>
-      <td style="padding: 10px; text-align: left; border-bottom: 0px; background-color: transparent;"><h6>high computational</h6></td>
+      <td style="padding: 10px; text-align: left; border-bottom: 0px; background-color: transparent;"><h6>high resource</h6></td>
     </tr>
     <tr>
-      <td style="padding: 10px; text-align: left; border-bottom: 1px solid black; border-top: 0px;"><h6>accessible online</h6></td>
-      <td style="padding: 10px; text-align: left; border-bottom: 1px solid black; border-top: 0px;"><h6>limited styles</h6></td>
+      <td style="padding: 10px; text-align: left; border-bottom: 1px solid black; border-top: 0px;"><h6>support various style</h6></td>
+      <td style="padding: 10px; text-align: left; border-bottom: 1px solid black; border-top: 0px;"><h6>unrepeatable</h6></td>
     </tr>
   </tbody>
 </table>
@@ -102,7 +102,73 @@ style: |
 
 ---
 
-#### Musical Variations from a Chaotic Mapping Method
+### Musical Variations from a Chaotic Mapping Method
+<br>
+<br>
+<br>
+<center>
+  <h6>Original</h6>
+  <img src="img/dabby_1.png" width="75%" />
+  <br>
+  <audio controls>
+    <source src="mp3/dabby_1.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+</center>
+
+---
+
+### Musical Variations from a Chaotic Mapping Method
+<br>
+<center>
+  <section data-marpit-fragments="2">
+  <img src="img/dp_1.png" width="100%" />
+  <br>
+  <br>
+  <img data-marpit-fragment="1" src="img/dp_2.png" width="100%" />
+  <br>
+  <br>
+  <img data-marpit-fragment="2" src="img/dp_3.png" width="100%" />
+  </section>
+</center>
+
+---
+
+### Musical Variations from a Chaotic Mapping Method
+<br>
+<center>
+  <section data-marpit-fragments="2">
+  <img src="img/dp_3.png" width="100%" />
+  <br>
+  <br>
+  <img data-marpit-fragment="1" src="img/dp_4.png" width="100%" />
+  <br>
+  <br>
+  <img data-marpit-fragment="2" src="img/dp_5.png" width="100%" />
+  <br>
+  <br>
+  </section>
+</center>
+
+---
+
+### Musical Variations from a Chaotic Mapping Method
+<br>
+<center>
+  <h6>Variation</h6>
+  <br>
+  <img src="img/dp_6.png" width="100%" />
+  <img src="img/dabby_2.png" width="75%" />
+  <br>
+  <audio controls>
+    <source src="mp3/dabby_2.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>
+</center>
+
+---
+
+### Musical Variations from a Chaotic Mapping Method
 
 The Lorenz system, a dynamical system with parameters $\sigma > 0$, $r > 0$ and $b > 0$ given by:
 
@@ -149,68 +215,6 @@ $$
 
 ---
 
-### Process of Musical Variations Method
-<br>
-<br>
-<br>
-<center>
-  <h6>Original</h6>
-  <img src="img/dabby_1.png" width="75%" />
-  <br>
-  <audio controls>
-    <source src="mp3/dabby_1.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>
-</center>
-
----
-
-### Process of Musical Variations Method
-<br>
-<center>
-  <img src="img/dp_1.png" width="100%" />
-  <br>
-  <br>
-  <img src="img/dp_2.png" width="100%" />
-  <br>
-  <br>
-  <img src="img/dp_3.png" width="100%" />
-</center>
-
----
-
-### Process of Musical Variations Method
-<br>
-<center>
-  <img src="img/dp_3.png" width="100%" />
-  <br>
-  <br>
-  <img src="img/dp_4.png" width="100%" />
-  <br>
-  <br>
-  <img src="img/dp_5.png" width="100%" />
-  <br>
-  <br>
-</center>
-
----
-
-### Process of Musical Variations Method
-<br>
-<center>
-  <h6>Variation</h6>
-  <br>
-  <img src="img/dp_6.png" width="100%" />
-  <img src="img/dabby_2.png" width="75%" />
-  <br>
-  <audio controls>
-    <source src="mp3/dabby_2.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>
-</center>
-
----
-
 ### Melodic Variation with Expanded Rhythm Method
 This technique extends the rhythmic duration of musical notes, thereby opening up a number of possibilities for creating new musical variations.
 
@@ -244,13 +248,15 @@ This technique extends the rhythmic duration of musical notes, thereby opening u
 
 <br>
 <center>
+  <section data-marpit-fragments="2">
   <img src="img/erp_1.png" width="50%" />
   <br>
   <br>
-  <img src="img/erp_2.png" width="50%" />
+  <img data-marpit-fragment="1" src="img/erp_2.png" width="50%" />
   <br>
   <br>
-  <img src="img/erp_3.png" width="50%" />
+  <img data-marpit-fragment="2" src="img/erp_3.png" width="50%" />
+  </section>
 </center>
 
 ---
@@ -259,13 +265,15 @@ This technique extends the rhythmic duration of musical notes, thereby opening u
 
 <br>
 <center>
+  <section data-marpit-fragments="2">
   <img src="img/erp_3.png" width="50%" />
   <br>
   <br>
-  <img src="img/erp_4.png" width="100%" />
+  <img data-marpit-fragment="2" src="img/erp_4.png" width="100%" />
   <br>
   <br>
-  <img src="img/erp_5.png" width="100%" />
+  <img data-marpit-fragment="3" src="img/erp_5.png" width="100%" />
+  </section>
 </center>
 
 ---
@@ -299,7 +307,7 @@ Pachelbel - Canon in D
 <div class="container">
   <div class="column">
     <center>
-    <h6>Original Variation</h6>
+    <h6>Original</h6>
       <audio controls>
         <source src="mp3/original_cnd.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -308,7 +316,7 @@ Pachelbel - Canon in D
   </div>
   <div class="column">
     <center>
-    <h6>New Variation</h6>
+    <h6>Variation</h6>
       <audio controls>
         <source src="mp3/new_cnd.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -325,7 +333,7 @@ Yiruma, (이루마) - River Flows in You
 <div class="container">
   <div class="column">
     <center>
-    <h6>Original Variation</h6>
+    <h6>Original</h6>
       <audio controls>
         <source src="mp3/original_rfiy.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
@@ -334,7 +342,7 @@ Yiruma, (이루마) - River Flows in You
   </div>
   <div class="column">
     <center>
-    <h6>New Variation</h6>
+    <h6>Variation</h6>
       <audio controls>
         <source src="mp3/new_rfiy.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
