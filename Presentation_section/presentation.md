@@ -92,7 +92,7 @@ style: |
 
 ---
 
-![bg left:50% fit](img/dabby_paper.PNG) 
+![bg left:50% fit](img/dp.png) 
 > D. S. Dabby (1996), Musical Variations from a Chaotic Mapping, Chaos, 6 (2): pp. 95–107. 
 
 ![center h:250px ](img/le.png)
