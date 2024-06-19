@@ -31,7 +31,10 @@ style: |
 
 ---
 
-<img src="img/conference_logo.jpg" width="15%" />
+<img src="img/RMUTT.png" width="9.75%" />
+<img src="img/tb.png" width="2%" />
+<img src="img/math_logo.png" width="15%" />
+<img style="float: right;" src="img/conference_logo.jpg" width="10%" />
 
 #### Generating Music Variations through Chaotic Dynamical Systems Exploration
 
@@ -46,8 +49,6 @@ style: |
 ---
 
 #### Nowaday Music AI 
-
-###### Example of Music AI 
 
 <br>
 
@@ -68,8 +69,6 @@ style: |
     </center>
   </div>
 </div>
-
-###### Pros and Cons of Music AI 
 
 <table style="width: 100%; border-collapse: collapse;">
   <thead>
@@ -141,7 +140,7 @@ $$
 
 ----- 
 
-#### MVCM 3. Construct a mapping: SMP vs TRAJ
+#### MVCM 3. Construct a mapping: TRAJ $\to$ SMP
 
 <br>
 <center>
@@ -287,19 +286,30 @@ $$
 
 #### Our Method
 
-<br>
-<center>
-<h6>Our Variation</h6>
-  <br>
-  <img src="img/erp_6.png" width="100%" />
-  <br>
-  <img src="img/er_2.png" width="75%" />
-  <br>
-  <audio controls>
-    <source src="mp3/er_2.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-  </audio>
-</center>
+<div class="container">
+  <div class="column">
+    <center>
+      <h6>MVCM Variation</h6>
+      <img src="img/dabby_2.png" height="100px" />
+      <audio controls>
+        <source src="mp3/dabby_2.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </center>
+  </div>
+  <div class="column">
+    <center>
+      <h6>Our Variation</h6>
+      <img src="img/ov1.png" height="100px" />
+      <img src="img/ov2.png" height="100px" />
+      <img src="img/ov3.png" height="100px" />
+      <audio controls>
+        <source src="mp3/ov.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+    </center>
+  </div>
+</div>
 
 ---
 
