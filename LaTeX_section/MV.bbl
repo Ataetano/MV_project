@@ -1,0 +1,1599 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{bonnici_music_2021}{book}{}
+      \name{author}{4}{}{%
+        {{hash=56793861587c0639c80a8d4919348502}{%
+           family={Bonnici},
+           familyi={B\bibinitperiod},
+           given={Alexandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=63c3cc5e6f545e84b29746ddce9f91af}{%
+           family={Dannenberg},
+           familyi={D\bibinitperiod},
+           given={Roger\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=63837cfcf2aa462f3a7bb57cf185159a}{%
+           family={Kemper},
+           familyi={K\bibinitperiod},
+           given={Steven},
+           giveni={S\bibinitperiod}}}%
+        {{hash=802bc4193a2160a6637b9d5e5bbdf4eb}{%
+           family={Camilleri},
+           familyi={C\bibinitperiod},
+           given={Kenneth\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Frontiers Media {SA}}%
+      }
+      \strng{namehash}{fb15f0e54b400c110d50a9044182395c}
+      \strng{fullhash}{aee24ec88616ceb1583a1e94f76879ec}
+      \strng{bibnamehash}{aee24ec88616ceb1583a1e94f76879ec}
+      \strng{authorbibnamehash}{aee24ec88616ceb1583a1e94f76879ec}
+      \strng{authornamehash}{fb15f0e54b400c110d50a9044182395c}
+      \strng{authorfullhash}{aee24ec88616ceb1583a1e94f76879ec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-2-88966-602-7}
+      \field{pagetotal}{170}
+      \field{title}{Music and {AI}}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{mubert_website}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4aa243d60f27b156ced28670a2549d7c}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Mubert},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4aa243d60f27b156ced28670a2549d7c}
+      \strng{fullhash}{4aa243d60f27b156ced28670a2549d7c}
+      \strng{bibnamehash}{4aa243d60f27b156ced28670a2549d7c}
+      \strng{authorbibnamehash}{4aa243d60f27b156ced28670a2549d7c}
+      \strng{authornamehash}{4aa243d60f27b156ced28670a2549d7c}
+      \strng{authorfullhash}{4aa243d60f27b156ced28670a2549d7c}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Mubert - Human and AI music generator for your video content, podcasts and apps}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mubert.com/
+      \endverb
+      \verb{url}
+      \verb https://mubert.com/
+      \endverb
+    \endentry
+    \entry{musicfy_website}{online}{}
+      \name{author}{1}{}{%
+        {{hash=890705113095e0ba40dc0ae04c0885dd}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Musicfy},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{890705113095e0ba40dc0ae04c0885dd}
+      \strng{fullhash}{890705113095e0ba40dc0ae04c0885dd}
+      \strng{bibnamehash}{890705113095e0ba40dc0ae04c0885dd}
+      \strng{authorbibnamehash}{890705113095e0ba40dc0ae04c0885dd}
+      \strng{authornamehash}{890705113095e0ba40dc0ae04c0885dd}
+      \strng{authorfullhash}{890705113095e0ba40dc0ae04c0885dd}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Musicfy - Change Your Voice with AI}
+      \field{urlday}{27}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://musicfy.lol/
+      \endverb
+      \verb{url}
+      \verb https://musicfy.lol/
+      \endverb
+    \endentry
+    \entry{soundraw_website}{online}{}
+      \name{author}{1}{}{%
+        {{hash=42ef082aea884daa4667a50ea88aecc2}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Soundraw},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{42ef082aea884daa4667a50ea88aecc2}
+      \strng{fullhash}{42ef082aea884daa4667a50ea88aecc2}
+      \strng{bibnamehash}{42ef082aea884daa4667a50ea88aecc2}
+      \strng{authorbibnamehash}{42ef082aea884daa4667a50ea88aecc2}
+      \strng{authornamehash}{42ef082aea884daa4667a50ea88aecc2}
+      \strng{authorfullhash}{42ef082aea884daa4667a50ea88aecc2}
+      \field{extraname}{3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Soundraw the music tool for creators and artists}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://soundraw.io
+      \endverb
+      \verb{url}
+      \verb https://soundraw.io
+      \endverb
+    \endentry
+    \entry{boomy_website}{online}{}
+      \name{author}{1}{}{%
+        {{hash=032e9852f9ed9e2c8d2676ee134549c9}{%
+           family={Corporation},
+           familyi={C\bibinitperiod},
+           given={Boomy},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{032e9852f9ed9e2c8d2676ee134549c9}
+      \strng{fullhash}{032e9852f9ed9e2c8d2676ee134549c9}
+      \strng{bibnamehash}{032e9852f9ed9e2c8d2676ee134549c9}
+      \strng{authorbibnamehash}{032e9852f9ed9e2c8d2676ee134549c9}
+      \strng{authornamehash}{032e9852f9ed9e2c8d2676ee134549c9}
+      \strng{authorfullhash}{032e9852f9ed9e2c8d2676ee134549c9}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Boomy - Unleash your creativity. Make music with Boomy AI.}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://boomy.com/
+      \endverb
+      \verb{url}
+      \verb https://boomy.com/
+      \endverb
+    \endentry
+    \entry{aiva_website}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fc046ffd7ba3231cb95959713f811658}{%
+           family={SARL.},
+           familyi={S\bibinitperiod},
+           given={Aiva\bibnamedelima Technologies},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc046ffd7ba3231cb95959713f811658}
+      \strng{fullhash}{fc046ffd7ba3231cb95959713f811658}
+      \strng{bibnamehash}{fc046ffd7ba3231cb95959713f811658}
+      \strng{authorbibnamehash}{fc046ffd7ba3231cb95959713f811658}
+      \strng{authornamehash}{fc046ffd7ba3231cb95959713f811658}
+      \strng{authorfullhash}{fc046ffd7ba3231cb95959713f811658}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AIVA Your personal AI music generation assistant}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2024}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aiva.ai/
+      \endverb
+      \verb{url}
+      \verb https://www.aiva.ai/
+      \endverb
+    \endentry
+    \entry{ren_new_2018}{article}{}
+      \name{author}{6}{}{%
+        {{hash=9984ea6e9286547acac429302539115b}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Shuili},
+           giveni={S\bibinitperiod}}}%
+        {{hash=baf8a9eea718e3db5c48d18fd07ff1f2}{%
+           family={Panahi},
+           familyi={P\bibinitperiod},
+           given={Shirin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4d0d7b7e03ad38c36e6abd32dc230b7f}{%
+           family={Rajagopal},
+           familyi={R\bibinitperiod},
+           given={Karthikeyan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f47358682cff44032dc9f2c52a1b7c4}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Viet-Thanh},
+           giveni={V\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=518462a940725f1d1bb83302bc36bad8}{%
+           family={Jafari},
+           familyi={J\bibinitperiod},
+           given={Sajad},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{007d4b285878ab108e707cef99d55b1b}
+      \strng{fullhash}{9f37bb62639da24fd3efbc79afeb3149}
+      \strng{bibnamehash}{9f37bb62639da24fd3efbc79afeb3149}
+      \strng{authorbibnamehash}{9f37bb62639da24fd3efbc79afeb3149}
+      \strng{authornamehash}{007d4b285878ab108e707cef99d55b1b}
+      \strng{authorfullhash}{9f37bb62639da24fd3efbc79afeb3149}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Zeitschrift fur Naturforschung a}
+      \field{title}{A {New} {Chaotic} {Flow} with {Hidden} {Attractor}: {The} {First} {Hyperjerk} {System} with {No} {Equilibrium}}
+      \field{volume}{73}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1515/zna-2017-0409
+      \endverb
+    \endentry
+    \entry{wang_s-box_2019}{article}{}
+      \name{author}{8}{}{%
+        {{hash=d79f978d123aba9f75bbbb35ea6bc515}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2f3ec90bf20d9b286a9dd353f4678083}{%
+           family={çavuşoğlu},
+           familyi={ç\bibinitperiod},
+           given={Ünal},
+           giveni={Ü\bibinitperiod}}}%
+        {{hash=dbfd2b952ef8a774f57e966c4b2d216b}{%
+           family={Kacar},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6f47358682cff44032dc9f2c52a1b7c4}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Viet-Thanh},
+           giveni={V\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=518462a940725f1d1bb83302bc36bad8}{%
+           family={Jafari},
+           familyi={J\bibinitperiod},
+           given={Sajad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8fb3c1c8eacec453db9ba80b41cabeac}{%
+           family={Alsaadi},
+           familyi={A\bibinitperiod},
+           given={Fawaz},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5fe6be1dc053f432e82605d21a446436}{%
+           family={Nguyễn},
+           familyi={N\bibinitperiod},
+           given={Xuân},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{a05aab2393845bcb38001defd1b5e9d7}
+      \strng{fullhash}{fd98c809e030139eed00f2aef62a392d}
+      \strng{bibnamehash}{a05aab2393845bcb38001defd1b5e9d7}
+      \strng{authorbibnamehash}{a05aab2393845bcb38001defd1b5e9d7}
+      \strng{authornamehash}{a05aab2393845bcb38001defd1b5e9d7}
+      \strng{authorfullhash}{fd98c809e030139eed00f2aef62a392d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Sciences}
+      \field{title}{S-{Box} {Based} {Image} {Encryption} {Application} {Using} a {Chaotic} {System} without {Equilibrium}}
+      \field{volume}{9}
+      \field{year}{2019}
+      \field{pages}{781}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/app9040781
+      \endverb
+    \endentry
+    \entry{wang_chaotic_2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d79f978d123aba9f75bbbb35ea6bc515}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c2465aadc98c418b040e810d4f8c1b79}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Guanrong},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{37eddc99babe4766315be40f4cb339af}
+      \strng{fullhash}{37eddc99babe4766315be40f4cb339af}
+      \strng{bibnamehash}{37eddc99babe4766315be40f4cb339af}
+      \strng{authorbibnamehash}{37eddc99babe4766315be40f4cb339af}
+      \strng{authornamehash}{37eddc99babe4766315be40f4cb339af}
+      \strng{authorfullhash}{37eddc99babe4766315be40f4cb339af}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Communications in Nonlinear Science and Numerical Simulation}
+      \field{title}{A chaotic system with only one stable equilibrium}
+      \field{volume}{17}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1016/j.cnsns.2011.07.017
+      \endverb
+    \endentry
+    \entry{wang_chaotic_2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d79f978d123aba9f75bbbb35ea6bc515}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiong},
+           giveni={X\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=364d1076a9dea04e1c6b9de83062ae5c}{%
+           family={Çiçek},
+           familyi={Ç\bibinitperiod},
+           given={Serdar},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6f47358682cff44032dc9f2c52a1b7c4}{%
+           family={Pham},
+           familyi={P\bibinitperiod},
+           given={Viet-Thanh},
+           giveni={V\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=92d4397ca0e7c5e18346e7765c64592e}{%
+           family={Hoang},
+           familyi={H\bibinitperiod},
+           given={Duy},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{239c2313538b915dcf5e289b3458ed24}
+      \strng{fullhash}{75c490aecea6d5147b26b094c1ff9abe}
+      \strng{bibnamehash}{75c490aecea6d5147b26b094c1ff9abe}
+      \strng{authorbibnamehash}{75c490aecea6d5147b26b094c1ff9abe}
+      \strng{authornamehash}{239c2313538b915dcf5e289b3458ed24}
+      \strng{authorfullhash}{75c490aecea6d5147b26b094c1ff9abe}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Bifurcation and Chaos}
+      \field{title}{A Chaotic System with Two Stable Equilibrium Points: Dynamics, Circuit Realization and Communication Application}
+      \field{volume}{27}
+      \field{year}{2017}
+      \field{pages}{1750130}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0218127417501309
+      \endverb
+    \endentry
+    \entry{rajagopal_multiscroll_2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4d0d7b7e03ad38c36e6abd32dc230b7f}{%
+           family={Rajagopal},
+           familyi={R\bibinitperiod},
+           given={Karthikeyan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=bdeb03d6fb109795c1d049266a804b6e}{%
+           family={Durdu},
+           familyi={D\bibinitperiod},
+           given={Ali},
+           giveni={A\bibinitperiod}}}%
+        {{hash=518462a940725f1d1bb83302bc36bad8}{%
+           family={Jafari},
+           familyi={J\bibinitperiod},
+           given={Sajad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=c3d6553085742cf112656032c61949b6}{%
+           family={Uyaroğlu},
+           familyi={U\bibinitperiod},
+           given={Yılmaz},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c1de874b382beef41268c14c7d702627}{%
+           family={Karthikeyan},
+           familyi={K\bibinitperiod},
+           given={Anitha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{134f7e78075def4e38f922525ea39340}
+      \strng{fullhash}{9ce47f78994c5312d7b06ed7ff33b66f}
+      \strng{bibnamehash}{9ce47f78994c5312d7b06ed7ff33b66f}
+      \strng{authorbibnamehash}{9ce47f78994c5312d7b06ed7ff33b66f}
+      \strng{authornamehash}{134f7e78075def4e38f922525ea39340}
+      \strng{authorfullhash}{9ce47f78994c5312d7b06ed7ff33b66f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Non-Linear Mechanics}
+      \field{title}{Multiscroll chaotic system with sigmoid nonlinearity and its fractional order form with synchronization application}
+      \field{volume}{116}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1016/j.ijnonlinmec.2019.07.013
+      \endverb
+    \endentry
+    \entry{pehlivan_multiscroll_2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=31893918b46ad764b3f65a7001a45f61}{%
+           family={Pehlivan},
+           familyi={P\bibinitperiod},
+           given={Ihsan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=fa40c34103021ae7af94d9201e1cf099}{%
+           family={Kurt},
+           familyi={K\bibinitperiod},
+           given={Ersin},
+           giveni={E\bibinitperiod}}}%
+        {{hash=0b45521058aa0ab7dbd3e8f881a00930}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=e3ed480aff748f36641e86e5c11e48bf}{%
+           family={Basaran},
+           familyi={B\bibinitperiod},
+           given={Aziz},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d4eee32e56d869bb89be47b4a76f55cd}{%
+           family={Kutlu},
+           familyi={K\bibinitperiod},
+           given={Mustafa},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba0e3460b37645b76bc9a9934c64cdeb}
+      \strng{fullhash}{0ebee5bbf95abccd97df286fb54eca56}
+      \strng{bibnamehash}{0ebee5bbf95abccd97df286fb54eca56}
+      \strng{authorbibnamehash}{0ebee5bbf95abccd97df286fb54eca56}
+      \strng{authornamehash}{ba0e3460b37645b76bc9a9934c64cdeb}
+      \strng{authorfullhash}{0ebee5bbf95abccd97df286fb54eca56}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A {Multiscroll} {Chaotic} {Attractor} {And} {Its} {Electronic} {Circuit} {Implementation}}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{pages}{29\bibrangedash 37}
+      \range{pages}{9}
+    \endentry
+    \entry{field_symmetry_2009}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c0fddca723f2fc1867fe5fafbae021a0}{%
+           family={Field},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3126448e2c6d96a97f230599a870abe5}{%
+           family={Golubitsky},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{9547c8d65e57706256b886bb03515117}
+      \strng{fullhash}{9547c8d65e57706256b886bb03515117}
+      \strng{bibnamehash}{9547c8d65e57706256b886bb03515117}
+      \strng{authorbibnamehash}{9547c8d65e57706256b886bb03515117}
+      \strng{authornamehash}{9547c8d65e57706256b886bb03515117}
+      \strng{authorfullhash}{9547c8d65e57706256b886bb03515117}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-89871-672-6}
+      \field{title}{Symmetry in {Chaos}: {A} {Search} for {Pattern} in {Mathematics}, {Art} and {Nature}}
+      \field{year}{2009}
+    \endentry
+    \entry{article}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b7b0109d1d4e7bed1add04fbecb0fb00}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zhouchao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=2fa59ea0abcbda49f67672e89de64b43}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Bin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=590e4e39e560d4f5c33781113cd98b41}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9953b590e9695d8b2d67a1398177f3a5}{%
+           family={Perc},
+           familyi={P\bibinitperiod},
+           given={Matjaž},
+           giveni={M\bibinitperiod}}}%
+        {{hash=aee3e738b3aed3445bf88cbec9680c7c}{%
+           family={Slavinec},
+           familyi={S\bibinitperiod},
+           given={Mitja},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1eb16c28d7bb7fe5c00032a57018c90e}
+      \strng{fullhash}{333f5a3d4e858974098f0939bce529ac}
+      \strng{bibnamehash}{333f5a3d4e858974098f0939bce529ac}
+      \strng{authorbibnamehash}{333f5a3d4e858974098f0939bce529ac}
+      \strng{authornamehash}{1eb16c28d7bb7fe5c00032a57018c90e}
+      \strng{authorfullhash}{333f5a3d4e858974098f0939bce529ac}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Mathematics and Computation}
+      \field{title}{Bifurcation analysis of two disc dynamos with viscous friction and multiple time delays}
+      \field{volume}{347}
+      \field{year}{2019}
+      \field{pages}{265\bibrangedash 281}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1016/j.amc.2018.10.090
+      \endverb
+    \endentry
+    \entry{varan_control_2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fe68dee9354e3aa1d4821733b599d24f}{%
+           family={Varan},
+           familyi={V\bibinitperiod},
+           given={Metin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3481e6d98389df327e3080ba54ee5d44}
+      \strng{fullhash}{3481e6d98389df327e3080ba54ee5d44}
+      \strng{bibnamehash}{3481e6d98389df327e3080ba54ee5d44}
+      \strng{authorbibnamehash}{3481e6d98389df327e3080ba54ee5d44}
+      \strng{authornamehash}{3481e6d98389df327e3080ba54ee5d44}
+      \strng{authorfullhash}{3481e6d98389df327e3080ba54ee5d44}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pramana}
+      \field{title}{Control and synchronisation of a novel seven-dimensional hyperchaotic system with active control}
+      \field{volume}{90}
+      \field{year}{2018}
+      \field{pages}{54}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s12043-018-1546-9
+      \endverb
+    \endentry
+    \entry{rajagopal_dynamical_2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4d0d7b7e03ad38c36e6abd32dc230b7f}{%
+           family={Rajagopal},
+           familyi={R\bibinitperiod},
+           given={Karthikeyan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b14771cd6fb33aa796cee4dde568b022}{%
+           family={Tuna},
+           familyi={T\bibinitperiod},
+           given={Murat},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c1de874b382beef41268c14c7d702627}{%
+           family={Karthikeyan},
+           familyi={K\bibinitperiod},
+           given={Anitha},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e6fe229bb0bf5c5dc3f17e26d4fb1a92}{%
+           family={Koyuncu},
+           familyi={K\bibinitperiod},
+           given={İsmail},
+           giveni={İ\bibinitperiod}}}%
+        {{hash=cee8cd112b5d8f53fdde363ba99184da}{%
+           family={Duraisamy},
+           familyi={D\bibinitperiod},
+           given={Prakash},
+           giveni={P\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3c3e6d1a3ec88bbdb7d1bdcc0d7af11}
+      \strng{fullhash}{cc34e47fab2db34e570c585e2a6accc5}
+      \strng{bibnamehash}{cc34e47fab2db34e570c585e2a6accc5}
+      \strng{authorbibnamehash}{cc34e47fab2db34e570c585e2a6accc5}
+      \strng{authornamehash}{d3c3e6d1a3ec88bbdb7d1bdcc0d7af11}
+      \strng{authorfullhash}{cc34e47fab2db34e570c585e2a6accc5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1951-6355}
+      \field{journaltitle}{European Physical Journal Special Topics}
+      \field{title}{Dynamical analysis, sliding mode synchronization of a fractional-order memristor {Hopfield} neural network with parameter uncertainties and its non-fractional-order {FPGA} implementation}
+      \field{volume}{228}
+      \field{year}{2019}
+      \field{pages}{2065\bibrangedash 2080}
+      \range{pages}{16}
+    \endentry
+    \entry{akgul_chaotic_2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{12782821478df47e291ffd45461aeec1}
+      \strng{fullhash}{12782821478df47e291ffd45461aeec1}
+      \strng{bibnamehash}{12782821478df47e291ffd45461aeec1}
+      \strng{authorbibnamehash}{12782821478df47e291ffd45461aeec1}
+      \strng{authornamehash}{12782821478df47e291ffd45461aeec1}
+      \strng{authorfullhash}{12782821478df47e291ffd45461aeec1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Circuits, Systems and Computers}
+      \field{title}{Chaotic {Oscillator} {Based} on {Fractional} {Order} {Memcapacitor}}
+      \field{volume}{28}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1142/S0218126619502396
+      \endverb
+    \endentry
+    \entry{rajagopal_simple_2019}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4d0d7b7e03ad38c36e6abd32dc230b7f}{%
+           family={Rajagopal},
+           familyi={R\bibinitperiod},
+           given={Karthikeyan},
+           giveni={K\bibinitperiod}}}%
+        {{hash=12782821478df47e291ffd45461aeec1}{%
+           family={Akgul},
+           familyi={A\bibinitperiod},
+           given={Akif},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2f6e0ccb699aa95459acd9fc86f1c380}{%
+           family={Moroz},
+           familyi={M\bibinitperiod},
+           given={Irene},
+           giveni={I\bibinitperiod}}}%
+        {{hash=b7b0109d1d4e7bed1add04fbecb0fb00}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Zhouchao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=518462a940725f1d1bb83302bc36bad8}{%
+           family={Jafari},
+           familyi={J\bibinitperiod},
+           given={Sajad},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6a76efdb68efdf36ed45581763372cc0}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={Iqtadar},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{564a86a14dca5c77a0acf441388c04f0}
+      \strng{fullhash}{65ff87a184d747373a70c546992ba8f2}
+      \strng{bibnamehash}{65ff87a184d747373a70c546992ba8f2}
+      \strng{authorbibnamehash}{65ff87a184d747373a70c546992ba8f2}
+      \strng{authornamehash}{564a86a14dca5c77a0acf441388c04f0}
+      \strng{authorfullhash}{65ff87a184d747373a70c546992ba8f2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{title}{A {Simple} {Chaotic} {System} {With} {Topologically} {Different} {Attractors}}
+      \field{volume}{7}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2019.2922164
+      \endverb
+    \endentry
+    \entry{jan_dynamical_2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=9dd3edc1f2d0721dd003255db5d8f162}{%
+           family={Jan},
+           familyi={J\bibinitperiod},
+           given={Rashid},
+           giveni={R\bibinitperiod}}}%
+        {{hash=1e79daa6915abb3f0458fc2d497841db}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Amin},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dcbffdedb395ed19666c700dc5b0480b}{%
+           family={Boulaaras},
+           familyi={B\bibinitperiod},
+           given={Salah},
+           giveni={S\bibinitperiod}}}%
+        {{hash=34357a36d4ec205bc3060f3ec9e5f0c5}{%
+           family={Ahmed\bibnamedelima Zubair},
+           familyi={A\bibinitperiod\bibinitdelim Z\bibinitperiod},
+           given={Sulima},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{889d00ec81a39eae9f13252a94277928}
+      \strng{fullhash}{0d59f546b687b522b3c0c28ad9d75679}
+      \strng{bibnamehash}{0d59f546b687b522b3c0c28ad9d75679}
+      \strng{authorbibnamehash}{0d59f546b687b522b3c0c28ad9d75679}
+      \strng{authornamehash}{889d00ec81a39eae9f13252a94277928}
+      \strng{authorfullhash}{0d59f546b687b522b3c0c28ad9d75679}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1026-0226}
+      \field{journaltitle}{Discrete Dynamics in Nature and Society}
+      \field{title}{Dynamical {Behaviour} and {Chaotic} {Phenomena} of {HIV} {Infection} through {Fractional} {Calculus}}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{e5937420}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1155/2022/5937420
+      \endverb
+    \endentry
+    \entry{knight_metlink_2021}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7d9242b7ed195afaaf8d9fcbdb231390}{%
+           family={Knight},
+           familyi={K\bibinitperiod},
+           given={Sylvia},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d9242b7ed195afaaf8d9fcbdb231390}
+      \strng{fullhash}{7d9242b7ed195afaaf8d9fcbdb231390}
+      \strng{bibnamehash}{7d9242b7ed195afaaf8d9fcbdb231390}
+      \strng{authorbibnamehash}{7d9242b7ed195afaaf8d9fcbdb231390}
+      \strng{authornamehash}{7d9242b7ed195afaaf8d9fcbdb231390}
+      \strng{authorfullhash}{7d9242b7ed195afaaf8d9fcbdb231390}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{MetLink} - {Royal} {Meteorological} {Society} {Weather}, {Climate} and {Chaos} {Theory}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.metlink.org/blog/weather-climate-and-chaos-theory/
+      \endverb
+      \verb{url}
+      \verb https://www.metlink.org/blog/weather-climate-and-chaos-theory/
+      \endverb
+    \endentry
+    \entry{turbulent}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b0e06043eb69005242801d1f9f72d601}{%
+           family={Roast},
+           familyi={R\bibinitperiod},
+           given={Sunday},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en-US}%
+      }
+      \strng{namehash}{b0e06043eb69005242801d1f9f72d601}
+      \strng{fullhash}{b0e06043eb69005242801d1f9f72d601}
+      \strng{bibnamehash}{b0e06043eb69005242801d1f9f72d601}
+      \strng{authorbibnamehash}{b0e06043eb69005242801d1f9f72d601}
+      \strng{authornamehash}{b0e06043eb69005242801d1f9f72d601}
+      \strng{authorfullhash}{b0e06043eb69005242801d1f9f72d601}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Turbulent flow, chaotic and unpredictable, arises from factors like viscosity and shear stress. It's chaotic nature makes it difficult to predict but crucial to understand.}
+      \field{title}{Turbulent {Flow} in {Fluid} {Dynamics}}
+      \field{urlday}{1}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.resolvedanalytics.com/fluid-dynamics/what-is-turbulent-flow
+      \endverb
+      \verb{url}
+      \verb https://www.resolvedanalytics.com/fluid-dynamics/what-is-turbulent-flow
+      \endverb
+    \endentry
+    \entry{crawford_ecological_2020}{article}{}
+      \name{author}{1}{}{%
+        {{hash=20a62ae20920c086586f4cf38ecf9797}{%
+           family={Crawford},
+           familyi={C\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{20a62ae20920c086586f4cf38ecf9797}
+      \strng{fullhash}{20a62ae20920c086586f4cf38ecf9797}
+      \strng{bibnamehash}{20a62ae20920c086586f4cf38ecf9797}
+      \strng{authorbibnamehash}{20a62ae20920c086586f4cf38ecf9797}
+      \strng{authornamehash}{20a62ae20920c086586f4cf38ecf9797}
+      \strng{authorfullhash}{20a62ae20920c086586f4cf38ecf9797}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2581-7264}
+      \field{journaltitle}{Journal of Public Health Issues and Practices}
+      \field{title}{Ecological {Systems} {Theory}: {Exploring} the {Development} of the {Theoretical} {Framework} as {Conceived} by {Bronfenbrenner}}
+      \field{volume}{4}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.33790/jphip1100170
+      \endverb
+    \endentry
+    \entry{jung_chaotic_2020}{article}{}
+      \name{author}{7}{}{%
+        {{hash=139cdf090821f54c210738375e2d4dcf}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Nam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=c918533e402bcab6dcc655b6ef434f47}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Jae\bibnamedelima Han},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0fbb159712730e69d8134e2f67ee3a93}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Kyoung-Eun},
+           giveni={K\bibinithyphendelim E\bibinitperiod}}}%
+        {{hash=582bf8b105a007131fdd7bf7d5c6edeb}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Do-Hun},
+           giveni={D\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=59e7ab0e7bd427630dc064387a0e0357}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Areum},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1b662a361bf04806d3a4fa4cbbd007e9}{%
+           family={Chon},
+           familyi={C\bibinitperiod},
+           given={Tae-Soo},
+           giveni={T\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=5a7f7ea26823ef45893c6e10cdfaedfd}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jae\bibnamedelima Woo},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc32c17b1b0f64f75b4dca229c129413}
+      \strng{fullhash}{41d73f95a9f25d0c4f007d6572cc3a49}
+      \strng{bibnamehash}{dc32c17b1b0f64f75b4dca229c129413}
+      \strng{authorbibnamehash}{dc32c17b1b0f64f75b4dca229c129413}
+      \strng{authornamehash}{dc32c17b1b0f64f75b4dca229c129413}
+      \strng{authorfullhash}{41d73f95a9f25d0c4f007d6572cc3a49}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1976-8524}
+      \field{journaltitle}{Journal of the Korean Physical Society}
+      \field{title}{Chaotic {Dynamics} of a {Simple} {Population} {Model} under the {Allee} {Effect}}
+      \field{year}{2020}
+      \field{pages}{533\bibrangedash 536}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.3938/jkps.76.533
+      \endverb
+    \endentry
+    \entry{liao_study_2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=bef29be3650e9e7cd0cb934cbbeff13e}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d77be29a72deff2fee6b94c697d09143}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yiran},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d5ffa18724632f01eea9ec8c2824ff66}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=9bca102b7a7d41379851e5be96e6cdde}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Xiao-Bao},
+           giveni={X\bibinithyphendelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{098580603090d09a7d198407145eb7e8}
+      \strng{fullhash}{e4286f4554c810a5f70d5f37e42f7c18}
+      \strng{bibnamehash}{e4286f4554c810a5f70d5f37e42f7c18}
+      \strng{authorbibnamehash}{e4286f4554c810a5f70d5f37e42f7c18}
+      \strng{authornamehash}{098580603090d09a7d198407145eb7e8}
+      \strng{authorfullhash}{e4286f4554c810a5f70d5f37e42f7c18}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1076-2787}
+      \field{journaltitle}{Complexity}
+      \field{title}{A {Study} on the {Complexity} of a {New} {Chaotic} {Financial} {System}}
+      \field{volume}{2020}
+      \field{year}{2020}
+      \field{pages}{e8821156}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1155/2020/8821156
+      \endverb
+    \endentry
+    \entry{vogl_chaos_2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ebe1ae4b2f22501efe61b54db045283c}{%
+           family={Vogl},
+           familyi={V\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ebe1ae4b2f22501efe61b54db045283c}
+      \strng{fullhash}{ebe1ae4b2f22501efe61b54db045283c}
+      \strng{bibnamehash}{ebe1ae4b2f22501efe61b54db045283c}
+      \strng{authorbibnamehash}{ebe1ae4b2f22501efe61b54db045283c}
+      \strng{authornamehash}{ebe1ae4b2f22501efe61b54db045283c}
+      \strng{authorfullhash}{ebe1ae4b2f22501efe61b54db045283c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1007-5704}
+      \field{journaltitle}{Communications in Nonlinear Science and Numerical Simulation}
+      \field{title}{Chaos measure dynamics in a multifactor model for financial market predictions}
+      \field{volume}{130}
+      \field{year}{2024}
+      \field{pages}{107760}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cnsns.2023.107760
+      \endverb
+    \endentry
+    \entry{tusset_dynamic_2023}{article}{}
+      \name{author}{5}{}{%
+        {{hash=d9642ba08c9407c211aab0d49b8ddf63}{%
+           family={Tusset},
+           familyi={T\bibinitperiod},
+           given={Angelo\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=53d61abbd0b3ff85a9f4bf7c15454f84}{%
+           family={Fuziki},
+           familyi={F\bibinitperiod},
+           given={Maria\bibnamedelimb E.\bibnamedelimi K.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=14eb7961c859e15f315fc9228f4f34f8}{%
+           family={Balthazar},
+           familyi={B\bibinitperiod},
+           given={Jose\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=610004776e396564a39105a2cec96546}{%
+           family={Andrade},
+           familyi={A\bibinitperiod},
+           given={Dana\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=9e8fba1c7c01037813537ee1770b3e02}{%
+           family={Lenzi},
+           familyi={L\bibinitperiod},
+           given={Giane\bibnamedelima G.},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{375829b73ce8859935881e3fa735215f}
+      \strng{fullhash}{b00a7e62ae29e383fe0b7eb6b2c4145a}
+      \strng{bibnamehash}{b00a7e62ae29e383fe0b7eb6b2c4145a}
+      \strng{authorbibnamehash}{b00a7e62ae29e383fe0b7eb6b2c4145a}
+      \strng{authornamehash}{375829b73ce8859935881e3fa735215f}
+      \strng{authorfullhash}{b00a7e62ae29e383fe0b7eb6b2c4145a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2504-3110}
+      \field{journaltitle}{Fractal and Fractional}
+      \field{title}{Dynamic {Analysis} and {Control} of a {Financial} {System} with {Chaotic} {Behavior} {Including} {Fractional} {Order}}
+      \field{volume}{7}
+      \field{year}{2023}
+      \field{pages}{535}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/fractalfract7070535
+      \endverb
+    \endentry
+    \entry{ait_omar_chaotic_2022}{article}{}
+      \name{author}{7}{}{%
+        {{hash=aa513bc6f858119e0f50a311c454580c}{%
+           family={Ait\bibnamedelima Omar},
+           familyi={A\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Driss},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c3244c798c428d82b959cc2d0c6b8d12}{%
+           family={Garmani},
+           familyi={G\bibinitperiod},
+           given={Hamid},
+           giveni={H\bibinitperiod}}}%
+        {{hash=2606bebfc61af100ab7470a8064e62f4}{%
+           family={Es-Sabery},
+           familyi={E\bibinithyphendelim S\bibinitperiod},
+           given={Fatima},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5173311f0a28ad083a86fe00e2d4c38f}{%
+           family={El\bibnamedelima Amrani},
+           familyi={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=87f3812435f22160118e8bb176c3b64b}{%
+           family={Azougaghe},
+           familyi={A\bibinitperiod},
+           given={Es-Said},
+           giveni={E\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=926a906f0cf0a87cdc7e9be255b00f5d}{%
+           family={Baslam},
+           familyi={B\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6372a05a89ae07648215684d98f8c2a1}{%
+           family={Azam},
+           familyi={A\bibinitperiod},
+           given={Farooque},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{759f7bdf7c06ec9cfec636a507d2d813}
+      \strng{fullhash}{4164e3813f19fcb1b657a1b4f78361c9}
+      \strng{bibnamehash}{759f7bdf7c06ec9cfec636a507d2d813}
+      \strng{authorbibnamehash}{759f7bdf7c06ec9cfec636a507d2d813}
+      \strng{authornamehash}{759f7bdf7c06ec9cfec636a507d2d813}
+      \strng{authorfullhash}{4164e3813f19fcb1b657a1b4f78361c9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2090-7141}
+      \field{journaltitle}{Journal of Computer Networks and Communications}
+      \field{title}{Chaotic {Dynamics} in {Joint} {Price} {QoS} {Game} with {Heterogeneous} {Internet} {Service} {Providers}}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1155/2022/9541887
+      \endverb
+    \endentry
+    \entry{korolj_healthy_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=f0507e65a0c29993e6a3c19d730505dd}{%
+           family={Korolj},
+           familyi={K\bibinitperiod},
+           given={Anastasia},
+           giveni={A\bibinitperiod}}}%
+        {{hash=81e3aabf23ccac22751f1300fccaea37}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Hau-Tieng},
+           giveni={H\bibinithyphendelim T\bibinitperiod}}}%
+        {{hash=982ea31f6be2b6764a071111bb50cafe}{%
+           family={Radisic},
+           familyi={R\bibinitperiod},
+           given={Milica},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3669fab6119ec64b61b6aa8f3119f315}
+      \strng{fullhash}{3669fab6119ec64b61b6aa8f3119f315}
+      \strng{bibnamehash}{3669fab6119ec64b61b6aa8f3119f315}
+      \strng{authorbibnamehash}{3669fab6119ec64b61b6aa8f3119f315}
+      \strng{authornamehash}{3669fab6119ec64b61b6aa8f3119f315}
+      \strng{authorfullhash}{3669fab6119ec64b61b6aa8f3119f315}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0142-9612}
+      \field{journaltitle}{Biomaterials}
+      \field{title}{A healthy dose of chaos: {Using} fractal frameworks for engineering higher-fidelity biomedical systems}
+      \field{volume}{219}
+      \field{year}{2019}
+      \field{pages}{119363}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.biomaterials.2019.119363
+      \endverb
+    \endentry
+    \entry{li_incorporating_2023}{article}{}
+      \name{author}{1}{}{%
+        {{hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{89b23cce0bb40099f7b69f6577f665fe}
+      \strng{fullhash}{89b23cce0bb40099f7b69f6577f665fe}
+      \strng{bibnamehash}{89b23cce0bb40099f7b69f6577f665fe}
+      \strng{authorbibnamehash}{89b23cce0bb40099f7b69f6577f665fe}
+      \strng{authornamehash}{89b23cce0bb40099f7b69f6577f665fe}
+      \strng{authorfullhash}{89b23cce0bb40099f7b69f6577f665fe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2211-3797}
+      \field{journaltitle}{Results in Physics}
+      \field{title}{Incorporating fractional operators into interaction dynamics of a chaotic biological model}
+      \field{volume}{54}
+      \field{year}{2023}
+      \field{pages}{107052}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.rinp.2023.107052
+      \endverb
+    \endentry
+    \entry{lin_chaotic_2020}{article}{}
+      \name{author}{4}{}{%
+        {{hash=0dd5d878fe233ac52f785edf1b329953}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hairong},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4ad4750692276614e74e6d1e0fca5f70}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Chunhua},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4dc34365d4fe867fa6de45e5e58d33bf}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=cb2ca0cb87b2adac5f41b3217131b295}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={Yumei},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3f3c91642a107784e34f7cd0790197ce}
+      \strng{fullhash}{ef40fdee9023ff6ba1de26376a3c6fb7}
+      \strng{bibnamehash}{ef40fdee9023ff6ba1de26376a3c6fb7}
+      \strng{authorbibnamehash}{ef40fdee9023ff6ba1de26376a3c6fb7}
+      \strng{authornamehash}{3f3c91642a107784e34f7cd0790197ce}
+      \strng{authorfullhash}{ef40fdee9023ff6ba1de26376a3c6fb7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1007-5704}
+      \field{journaltitle}{Communications in Nonlinear Science and Numerical Simulation}
+      \field{title}{Chaotic dynamics in a neural network with different types of external stimuli}
+      \field{volume}{90}
+      \field{year}{2020}
+      \field{pages}{105390}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.cnsns.2020.105390
+      \endverb
+    \endentry
+    \entry{cheffer_biochaos_2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=76d34f5228e6c50a32d034f860060c7d}{%
+           family={Cheffer},
+           familyi={C\bibinitperiod},
+           given={Augusto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=420eed67963c7ad387401b97c0a7a846}{%
+           family={Savi},
+           familyi={S\bibinitperiod},
+           given={Marcelo\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d1d3a524c3fd13ff0b0ba2fe446b746}
+      \strng{fullhash}{1d1d3a524c3fd13ff0b0ba2fe446b746}
+      \strng{bibnamehash}{1d1d3a524c3fd13ff0b0ba2fe446b746}
+      \strng{authorbibnamehash}{1d1d3a524c3fd13ff0b0ba2fe446b746}
+      \strng{authornamehash}{1d1d3a524c3fd13ff0b0ba2fe446b746}
+      \strng{authorfullhash}{1d1d3a524c3fd13ff0b0ba2fe446b746}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1951-6401}
+      \field{journaltitle}{The European Physical Journal Special Topics}
+      \field{number}{5}
+      \field{title}{Biochaos in cardiac rhythms}
+      \field{volume}{231}
+      \field{year}{2022}
+      \field{pages}{833\bibrangedash 845}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1140/epjs/s11734-021-00314-7
+      \endverb
+    \endentry
+    \entry{uthamacumaran_review_2021}{article}{}
+      \name{author}{1}{}{%
+        {{hash=994419184628c0fc2c7ca0d8fcb573a8}{%
+           family={Uthamacumaran},
+           familyi={U\bibinitperiod},
+           given={Abicumaran},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{994419184628c0fc2c7ca0d8fcb573a8}
+      \strng{fullhash}{994419184628c0fc2c7ca0d8fcb573a8}
+      \strng{bibnamehash}{994419184628c0fc2c7ca0d8fcb573a8}
+      \strng{authorbibnamehash}{994419184628c0fc2c7ca0d8fcb573a8}
+      \strng{authornamehash}{994419184628c0fc2c7ca0d8fcb573a8}
+      \strng{authorfullhash}{994419184628c0fc2c7ca0d8fcb573a8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2666-3899}
+      \field{journaltitle}{Patterns}
+      \field{number}{4}
+      \field{title}{A review of dynamical systems approaches for the detection of chaotic attractors in cancer networks}
+      \field{volume}{2}
+      \field{year}{2021}
+      \field{pages}{100226}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.patter.2021.100226
+      \endverb
+    \endentry
+    \entry{karimov_empirically_2023}{article}{}
+      \name{author}{6}{}{%
+        {{hash=17c72cd4f48df7b0829cad93c0372d11}{%
+           family={Karimov},
+           familyi={K\bibinitperiod},
+           given={Artur},
+           giveni={A\bibinitperiod}}}%
+        {{hash=42d2654c2f2ef7da0a51696cf671b4a4}{%
+           family={Kopets},
+           familyi={K\bibinitperiod},
+           given={Ekaterina},
+           giveni={E\bibinitperiod}}}%
+        {{hash=3e3fe0cede6b35cba7ad47c497b0352d}{%
+           family={Karimov},
+           familyi={K\bibinitperiod},
+           given={Timur},
+           giveni={T\bibinitperiod}}}%
+        {{hash=107307282b2abc3e9693dccda7a637b6}{%
+           family={Almjasheva},
+           familyi={A\bibinitperiod},
+           given={Oksana},
+           giveni={O\bibinitperiod}}}%
+        {{hash=3151b3edf2fa982fb661ac5f69f9a04f}{%
+           family={Arlyapov},
+           familyi={A\bibinitperiod},
+           given={Viacheslav},
+           giveni={V\bibinitperiod}}}%
+        {{hash=3084992da5d56fe8f642e2d79b1ac971}{%
+           family={Butusov},
+           familyi={B\bibinitperiod},
+           given={Denis},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{cbf3f03e7fad38da97a3341834566115}
+      \strng{fullhash}{a2b0a694e139e2cda748a891765d250d}
+      \strng{bibnamehash}{a2b0a694e139e2cda748a891765d250d}
+      \strng{authorbibnamehash}{a2b0a694e139e2cda748a891765d250d}
+      \strng{authornamehash}{cbf3f03e7fad38da97a3341834566115}
+      \strng{authorfullhash}{a2b0a694e139e2cda748a891765d250d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0960-0779}
+      \field{journaltitle}{Chaos, Solitons \& Fractals}
+      \field{title}{Empirically developed model of the stirring-controlled {Belousov}–{Zhabotinsky} reaction}
+      \field{volume}{176}
+      \field{year}{2023}
+      \field{pages}{114149}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.chaos.2023.114149
+      \endverb
+    \endentry
+    \entry{luengviriya_meandering_2013}{article}{}
+      \name{author}{7}{}{%
+        {{hash=1a4e4ffad78313fb6b3132d096b8be52}{%
+           family={Luengviriya},
+           familyi={L\bibinitperiod},
+           given={Jiraporn},
+           giveni={J\bibinitperiod}}}%
+        {{hash=12e40a9e259f363dbe45f94dde0efbb8}{%
+           family={Porjai},
+           familyi={P\bibinitperiod},
+           given={Porramain},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7fd3df9b1b2765f1bbd4c8ec166b6f4e}{%
+           family={Phantu},
+           familyi={P\bibinitperiod},
+           given={Metinee},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ef76b476ceeca4498098ebee42a06c6b}{%
+           family={Sutthiopad},
+           familyi={S\bibinitperiod},
+           given={Malee},
+           giveni={M\bibinitperiod}}}%
+        {{hash=2fe6316f2c7b086fa7027842943b0973}{%
+           family={Tomapatanaget},
+           familyi={T\bibinitperiod},
+           given={Boosayarat},
+           giveni={B\bibinitperiod}}}%
+        {{hash=0f3d603f26babac266cbb4b21ab416ff}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={Stefan\bibnamedelima C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dc9108f9aec322a8b980a258cf0579bd}{%
+           family={Luengviriya},
+           familyi={L\bibinitperiod},
+           given={Chaiya},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{661eae8c5bc207c126743dc3c9cb11aa}
+      \strng{fullhash}{709672a2d239e4a2c763577575ce7a00}
+      \strng{bibnamehash}{661eae8c5bc207c126743dc3c9cb11aa}
+      \strng{authorbibnamehash}{661eae8c5bc207c126743dc3c9cb11aa}
+      \strng{authornamehash}{661eae8c5bc207c126743dc3c9cb11aa}
+      \strng{authorfullhash}{709672a2d239e4a2c763577575ce7a00}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2614}
+      \field{journaltitle}{Chemical Physics Letters}
+      \field{title}{Meandering spiral waves in a bubble-free {Belousov}–{Zhabotinsky} reaction with pyrogallol}
+      \field{volume}{588}
+      \field{year}{2013}
+      \field{pages}{267\bibrangedash 271}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.cplett.2013.10.025
+      \endverb
+    \endentry
+    \entry{chopard_cellular_2022}{book}{}
+      \name{author}{4}{}{%
+        {{hash=5c93b2cff9c4a3c8cce257e7a53aff2a}{%
+           family={Chopard},
+           familyi={C\bibinitperiod},
+           given={Bastien},
+           giveni={B\bibinitperiod}}}%
+        {{hash=783dc809930133f32f0c3f7c244c556e}{%
+           family={Bandini},
+           familyi={B\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod}}}%
+        {{hash=69af6ee7fc166abb8c17565b3af401f6}{%
+           family={Dennunzio},
+           familyi={D\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod}}}%
+        {{hash=132aed1edb9baf4cee0108fd8e17867e}{%
+           family={Haddad},
+           familyi={H\bibinitperiod},
+           given={Mira\bibnamedelima Arabi},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{de2becbd1145967bb3b598f842e39933}
+      \strng{fullhash}{23560a51567cf49bfe061af912724221}
+      \strng{bibnamehash}{23560a51567cf49bfe061af912724221}
+      \strng{authorbibnamehash}{23560a51567cf49bfe061af912724221}
+      \strng{authornamehash}{de2becbd1145967bb3b598f842e39933}
+      \strng{authorfullhash}{23560a51567cf49bfe061af912724221}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-031-14926-9}
+      \field{title}{Cellular {Automata}: 15th {International} {Conference} on {Cellular} {Automata} for {Research} and {Industry}, {ACRI} 2022, {Geneva}, {Switzerland}, {September} 12–15, 2022, {Proceedings}}
+      \field{year}{2022}
+      \field{dateera}{ce}
+    \endentry
+    \entry{Lorenz}{article}{}
+      \name{author}{1}{}{%
+        {{hash=6f396d01fad930b8350434c7e6637756}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Bo-Wen},
+           giveni={B\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f396d01fad930b8350434c7e6637756}
+      \strng{fullhash}{6f396d01fad930b8350434c7e6637756}
+      \strng{bibnamehash}{6f396d01fad930b8350434c7e6637756}
+      \strng{authorbibnamehash}{6f396d01fad930b8350434c7e6637756}
+      \strng{authornamehash}{6f396d01fad930b8350434c7e6637756}
+      \strng{authorfullhash}{6f396d01fad930b8350434c7e6637756}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Bifurcation and Chaos}
+      \field{title}{Aggregated Negative Feedback in a Generalized Lorenz Model}
+      \field{volume}{29}
+      \field{year}{2019}
+      \field{pages}{1950037}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1142/S0218127419500378
+      \endverb
+    \endentry
+    \entry{dabby_musical_1996}{article}{}
+      \name{author}{1}{}{%
+        {{hash=ff2231c6712c34be0bdccbacf6c2d4a1}{%
+           family={Dabby},
+           familyi={D\bibinitperiod},
+           given={Diana\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{fullhash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{bibnamehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{authorbibnamehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{authornamehash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \strng{authorfullhash}{ff2231c6712c34be0bdccbacf6c2d4a1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1054-1500}
+      \field{journaltitle}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{number}{2}
+      \field{shortjournal}{Chaos: An Interdisciplinary Journal of Nonlinear Science}
+      \field{title}{Musical variations from a chaotic mapping}
+      \field{volume}{6}
+      \field{year}{1996}
+      \field{dateera}{ce}
+      \field{pages}{95\bibrangedash 107}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1063/1.166171
+      \endverb
+    \endentry
+    \entry{hinson_12_1987}{book}{}
+      \name{author}{1}{}{%
+        {{hash=c510465887430cbf4b2a632586d2e641}{%
+           family={Hinson},
+           familyi={H\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {{ALFRED} {PUBN}}%
+      }
+      \strng{namehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{fullhash}{c510465887430cbf4b2a632586d2e641}
+      \strng{bibnamehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{authorbibnamehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{authornamehash}{c510465887430cbf4b2a632586d2e641}
+      \strng{authorfullhash}{c510465887430cbf4b2a632586d2e641}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-7390-2032-6}
+      \field{pagetotal}{16}
+      \field{title}{12 Variations on Ah, Vous Dirai-Je, Maman, K. 265}
+      \field{year}{1987}
+      \field{dateera}{ce}
+    \endentry
+    \entry{pachelbel_canon_2005}{book}{}
+      \name{author}{2}{}{%
+        {{hash=37a2f76c912b7fd2a823deab66931bc3}{%
+           family={Pachelbel},
+           familyi={P\bibinitperiod},
+           given={Johann},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8ec020d6c4f8399c541871ba0be8d1fd}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={Willard\bibnamedelima A.},
+           giveni={W\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Alfred Music}%
+      }
+      \strng{namehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{fullhash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{bibnamehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{authorbibnamehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{authornamehash}{200df74fb5e83f3e77a6fc4336250514}
+      \strng{authorfullhash}{200df74fb5e83f3e77a6fc4336250514}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-7390-7134-2}
+      \field{pagetotal}{8}
+      \field{title}{Canon in D: Variations on the Theme for Piano}
+      \field{year}{2005}
+      \field{dateera}{ce}
+    \endentry
+    \entry{carlton2009thousandmiles}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e0f6e88dcaf20a6afb2ce0a90d0eb5c8}{%
+           family={Carlton},
+           familyi={C\bibinitperiod},
+           given={Vanessa},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0f6e88dcaf20a6afb2ce0a90d0eb5c8}
+      \strng{fullhash}{e0f6e88dcaf20a6afb2ce0a90d0eb5c8}
+      \strng{bibnamehash}{e0f6e88dcaf20a6afb2ce0a90d0eb5c8}
+      \strng{authorbibnamehash}{e0f6e88dcaf20a6afb2ce0a90d0eb5c8}
+      \strng{authornamehash}{e0f6e88dcaf20a6afb2ce0a90d0eb5c8}
+      \strng{authorfullhash}{e0f6e88dcaf20a6afb2ce0a90d0eb5c8}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Song}
+      \field{note}{Published on YouTube}
+      \field{title}{A Thousand Miles}
+      \field{year}{2009}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=Cwkej79U3ek
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=Cwkej79U3ek
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
